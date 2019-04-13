@@ -1,0 +1,2239 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+
+
+<!-- S:W01 -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"eef19c038d","applicationID":"88713777","transactionName":"ZVdbMkFWWBZUB0cNVlwdag9HUlUKRwETNlxDR1wVRxh+ClgB","queueTime":0,"applicationTime":113,"agent":"","atts":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="apple-mobile-web-app-title" content="Add to Home">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="apple-touch-icon-precomposed" href="/Assets/Images/addtohomescreen/icon-152x152.png">
+
+    <link rel="canonical" href="http://uky.campusdish.com/en" />
+    <link rel="alternate" hreflang="en" href="http://uky.campusdish.com/en" />
+
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <title>University of Kentucky Dining Services - University of Kentucky</title>
+    <meta name="description" content="University of Kentucky offers great campus dining options.  Find out more about our locations, daily menus, health and wellness programs, and much more! " />
+
+    <link rel="stylesheet" href="/Assets/Styles/page-sustainability.css" />
+    <link rel="stylesheet" href="/Assets/Styles/page-privacy.css" />
+    <link rel="stylesheet" href="/Assets/Styles/page-terms.css" />
+    <link rel="stylesheet" href="/Assets/Styles/page-contact-us.css" />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="/Bundles/scripts/Aramark.ACP.Foundation.Theming.min.js"></script>
+<script src="/Assets/Scripts/header-scripts.js"></script>
+
+    <link href="/Bundles/styles/Aramark.ACP.Foundation.Theming.min.css" rel="stylesheet" />
+<link href="/Assets/Styles/addtohomescreen.css" rel="stylesheet" />
+<link href="/Assets/Styles/main.css" rel="stylesheet" />
+<link href="/Assets/Styles/account.css" rel="stylesheet" />
+<link href="/Assets/Styles/checkout.css" rel="stylesheet" />
+<link href="/Assets/Styles/navigation.css" rel="stylesheet" />
+<link href="/Assets/Styles/locations.css" rel="stylesheet" />
+<link href="/Assets/Styles/grid.css" rel="stylesheet" />
+<link href="/Assets/Styles/libs/flickity.min.css" rel="stylesheet" />
+<link href="/Assets/Styles/carousel.css" rel="stylesheet" />
+<link href="/Assets/Styles/search.css" rel="stylesheet" />
+
+    <link href="/-/media/Global/Higher-Education/CSS-Theme/UnivKentucky.ashx" rel="stylesheet" />
+
+    <script type="text/javascript">
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 	ga('create', 'UA-44360715-7', 'uky.campusdish.com');
+ 	ga('create', 'UA-44023857-1', 'campusdish.com', {'name': 'newTracker'}); // New tracker.
+ 	 
+	ga('require', 'displayfeatures');
+	ga('send', 'pageview');
+ 	
+        ga('newTracker.require', 'displayfeatures'); // Send demographics for new tracker.
+        ga('newTracker.send', 'pageview'); // Send page view for new tracker.
+ 	//ga(function() {
+ 	//var newTracker = ga.getByName('newTracker');
+ 	//});
+ 	//ga(function() {
+ 	//var allTrackers = ga.getAll();
+ 	//});
+ 	 
+ 	
+<!-- Facebook Pixel Code -->
+var currPage = location.pathname.substring(location.pathname.lastIndexOf('/')+1).toLowerCase();
+switch (currPage) {
+case 'cart.aspx':
+fbq('track', 'PageView');
+fbq('track', 'AddToCart');
+break;
+case 'orderconfirmation.aspx':
+fbq('track', 'PageView');
+var x = document.querySelectorAll('.grand-total .data'); 
+var amt = 0;
+if (typeof(x)!='undefined' && x != null && x.length>0) {
+amt=x[0].innerHTML;
+fbq('track', 'Purchase', { value: amt, currency: 'USD' }); 
+}
+break;
+default:
+fbq('track', 'PageView');
+break;
+}
+<!-- End Facebook Pixel Code -->
+</script>
+    
+
+    <link rel="stylesheet" href="/Assets/Styles/page-my-account.css" />
+    <link rel="stylesheet" href="/Assets/Styles/page-home.css" />
+</head>
+
+<body>
+    
+<header class="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                
+<div class="header-wrapper">
+    
+<div class="logo">
+    <a href="/">
+        <img src="/-/media/Local/Higher-Education/GroupB/Kentucky/Images/UKYLogo.ashx?h=77&amp;w=250&amp;hash=591308F4129B86DAF85F6E63DD2B9511F9C72C2B" alt="UK Dining" />
+    </a>
+</div>
+
+    <div class="headerTop">
+    <ul class="unstyled navigation">
+        <li class="has-submenu skiplink" id="skiplinks"><a tabindex=0 href="#mainContent">Skip to Main Content</a></li>
+        <li class="has-submenu language"></li>
+        <li class="has-submenu account">
+        <a href="/Login" class="signIn">
+                <svg class="svg account-circle" viewBox="0 0 24 24" role="img" aria-labelledby="accountSVGAccountLink">
+        <title id="accountSVGAccountLink">User Profile</title>
+        <path d="M12,19.2C9.5,19.2 7.29,17.92 6,16C6.03,14 10,12.9 12,12.9C14,12.9 17.97,14 18,16C16.71,17.92 14.5,19.2 12,19.2M12,5A3,3 0 0,1 15,8A3,3 0 0,1 12,11A3,3 0 0,1 9,8A3,3 0 0,1 12,5M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z"></path>
+    </svg>
+    <span class="accountName">Sign In</span>
+
+        </a>
+	<script>
+		// prevent double toggle for keyboard navigation
+		$('document').ready(function() {
+			$("#accountLinkBtn").click(AccountLinkBtn_OnClick);
+		});
+
+		function AccountLinkBtn_OnClick(e) {
+			$(this).dropdown("toggle");
+			$("#accountLinkBtn").click(AccountLinkBtn_OnClick);
+			return false;
+		}
+	</script>
+
+</li>
+        <li class="has-submenu cart">	<a class="cartIcon" id="cartLink" href="/Cart">
+		<svg class="svg cart" viewBox="0 0 24 24" role="img" aria-labelledby="accountCartSVG">
+			<title id="accountCartSVG">Account Cart</title>
+			<path d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z"></path>
+		</svg>
+	</a>
+        <a class="cartIcon" href="/Cart">
+            Cart
+        </a>
+	<script>
+		// prevent double toggle for keyboard navigation
+		$('document').ready(function() {
+			$("#cartPopupBtn").click(CartPopupBtn_OnClick);
+		});
+
+		function CartPopupBtn_OnClick(e) {
+			$(this).dropdown("toggle");
+			$("#cartPopupBtn").click(CartPopupBtn_OnClick);
+			return false;
+		}
+	</script>
+</li>
+    </ul>
+</div>
+
+<script>
+    $('#skiplinks a').focus(function () {
+        $('#skiplinks').removeClass('skiplink');
+    });
+	  $('#skiplinks a').blur(function () {
+        $('#skiplinks').addClass('skiplink');
+    });
+</script>
+
+    
+
+<div class="primaryMenu">
+    <nav aria-label="header">
+
+<div class="navigation__mobileToggle" tabindex="0">
+        <span></span>
+</div>
+
+<ul class="unstyled navigation">
+                    <li>
+                        <a class="navigation__link" href="/LocationsAndMenus">
+                            Locations &amp; Menus
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="/HealthAndWellness">
+                            Health &amp; Wellness
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="/MealPlans">
+                            Meal Plans
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="/Sustainability">
+                            Sustainability
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="/Catering">
+                            Catering
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="/ContactUs">
+                            Contact Us
+                        </a>
+                    </li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+    $('#signOutButton').on('click',
+        function () {
+            location.href = '/api/accounts/logout';
+        })
+</script>
+</div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div class="banner banner--hero bg-dark" style="background-image: url('/-/media/Global/All-Divisions/Images/HomeHeroBanners/ToastBerries.ashx?mh=1600&amp;mw=1920&amp;hash=735B77630B7C421E8C44A515EB85C6D2905F9CD4')">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                        <h1 class="page-title">University of Kentucky</h1>
+                                            <div class="sub-title">Dining Services</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel-wrapper homepage">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="liveregion sr-only" aria-live="polite" aria-atomic="true" data-text="Showing slide {0} of {1}">Showing slide 1 of 3</div>
+                    <div class="carousel carousel-3-children">
+                            <div class="carousel-cell image-bg">
+                                <div class="card featured">
+
+                                        <div class="card-body"></div>
+<a class="card-link meta-data-tag" href="/MealPlans" target="" aria-label="Meal Plans" style="background-image: url('/-/media/Global/Higher-Education/Images/Home/Carousel/Fall2018/MealPlansSeptember.ashx?mh=275&amp;mw=702&amp;hash=2A331FF1CC814D6FA02B5890BF69995E201C2A7B');">Meal Plans</a>
+                                </div>
+                            </div>
+                            <div class="carousel-cell image-bg">
+                                <div class="card featured">
+
+                                        <div class="card-body"></div>
+<a class="card-link meta-data-tag" href="/LocationsAndMenus" target="" aria-label="Locations &amp; Hours" style="background-image: url('/-/media/Global/Higher-Education/Images/Home/Carousel/Fall2018/LocationsHoursSeptember.ashx?mh=275&amp;mw=702&amp;hash=EB217B418EC433B1C21DE418C85D26810A30401D');">Locations &amp; Hours</a>
+                                </div>
+                            </div>
+                            <div class="carousel-cell image-bg">
+                                <div class="card featured">
+
+                                        <div class="card-body"></div>
+<a class="card-link meta-data-tag" href="/HealthandWellness" target="" aria-label="Health &amp; Wellness" style="background-image: url('/-/media/Global/Higher-Education/Images/Home/Carousel/Fall2018/HealthWellnessSeptember.ashx?mh=275&amp;mw=702&amp;hash=D06F12A88AC8D39B15B7B07FCECD5E296D27BA8E');">Health &amp; Wellness</a>
+                                </div>
+                            </div>
+                    </div>
+                    <ol class="flickity-page-dots button-group button-group--cells hidden" aria-hidden="true">
+                        <li class="dot button is-selected" aria-selected="true" role="button" aria-label="Slide 1" tabindex="0"><span>1</span></li>
+
+                            <li class="dot button" role="button" aria-label="Slide 2" tabindex="0"><span>2</span></li>
+                            <li class="dot button" role="button" aria-label="Slide 3" tabindex="0"><span>3</span></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="content-wrapper">
+
+    
+
+
+    <main class="main" id="mainContent">
+        <div class="container">
+            
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2 class="section-header">Locations</h2>
+<div class="location__sortOptions">
+    <span class="sr-only"> On activation of each filter, locations will be updated below</span>
+    <ul class="unstyled locationFilters">        
+
+            <li class="js-selected">
+                <a class="type" aria-current="location" data-type="all" href="#" onclick="filterLocationsByType()">All</a>
+            </li>
+                        <li>
+                    <a class="type" href="#" data-type="dining halls" onclick="filterLocationsByType('Dining Halls')">Dining Halls</a>
+                </li>
+                <li>
+                    <a class="type" href="#" data-type="food courts" onclick="filterLocationsByType('Food Courts')">Food Courts</a>
+                </li>
+                <li>
+                    <a class="type" href="#" data-type="restaurants" onclick="filterLocationsByType('Restaurants')">Restaurants</a>
+                </li>
+                <li>
+                    <a class="type" href="#" data-type="coffee" onclick="filterLocationsByType('Coffee')">Coffee</a>
+                </li>
+                <li>
+                    <a class="type" href="#" data-type="convenience" onclick="filterLocationsByType('Convenience')">Convenience</a>
+                </li>
+                    <li>
+                <a class="status" href="#" data-status="open" onclick="filterLocationsByStatus('Open Now')">Open Now</a>
+            </li>
+                    <li>
+                <a class="address" href="#" data-type="address">
+                    <svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG" focusable="false">
+                                <title id="mapMarkerSVG">Map Marker</title>
+                        <path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" />
+                    </svg>
+                    Near Me
+                </a>
+            </li>
+            </ul>
+    <div class="locationAddress">
+        <div id="addressForm">
+            <div class="input-wrapper">
+                <label for="personAddress" class="sr-only">Address:</label>
+                <input id="personAddress" placeholder="Enter an address" type="text" />
+            </div>
+
+            <button id="getCurrentLocationButton" type="button">
+                <svg class="svg near-me" viewBox="0 0 24 24"  role="img" aria-labelledby="nearMeSVGFilterBar" focusable="false">                    
+                    <title id="nearMeSVGFilterBar">Near Me Map</title>                     
+                    <path d="M21,3L3,10.53V11.5L9.84,14.16L12.5,21H13.46L21,3Z" />
+                </svg>
+                Get Current Location
+
+                <span class="response"></span>
+            </button>
+
+            <button class="sort" onclick="sortLocationsByDistance()">Go</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    var directionsService = null;
+    $(document).ready(function () {
+        directionsService = new google.maps.DirectionsService();        
+    });
+
+    function filterLocationsByStatus(value) {
+        FilterLocations({ status: value });
+    };
+
+    function filterLocationsByMode(value) {
+        FilterLocations({ mode: value });
+    };
+
+    function filterLocationsByType(value) {
+        FilterLocations({ type: value });
+    };
+
+    function sortLocationsByDistance() {
+        var value = $("#personAddress").val();
+        FillAllDistances({ location: value });
+        FilterLocations({ location: value });
+    };
+
+	var requestedDistancesCnt = 0;
+	var listForSecondAttempt = [];
+	var numberOfAttempts;
+	function FillAllDistances(filterOptions) {
+		if (filterOptions.location) {
+			var distaces = $('.location__distance');
+			if (distaces.length) {
+				requestedDistancesCnt = 0;
+				numberOfAttempts = 3;
+				distaces.each(function () {
+					FillLocationDistance(this, filterOptions.location);
+				});
+			}
+		} else {
+			$("#loading").hide();
+		}
+	}
+
+	function FillLocationDistance(element, location) {
+		var geoCode = $(element).data('geocode');
+        if (geoCode) {
+            requestedDistancesCnt++;
+            var request = {
+                origin: location,
+                destination: geoCode,
+                travelMode: google.maps.DirectionsTravelMode.WALKING,
+                unitSystem: google.maps.UnitSystem.IMPERIAL
+            };
+
+            directionsService.route(request, function (result, status) {
+                if (status == google.maps.DirectionsStatus.OK) {
+                    $(element).text(result.routes[0].legs[0].distance.text);
+                    $(element).data('distance', result.routes[0].legs[0].distance.value);
+                } else if (status == google.maps.DirectionsStatus.OVER_QUERY_LIMIT) {
+                    $(element).data('location', location);
+                    $(element).data('status', status);
+                    if (numberOfAttempts > 0)
+                        listForSecondAttempt.push(element);
+                } else {
+                    $(element).data('status', status);
+                }
+
+                requestedDistancesCnt--;
+                if (requestedDistancesCnt <= 0) {
+                    $('#loading').hide();
+                    SortLocationsByDistance();
+                    if (numberOfAttempts > 0 && listForSecondAttempt.length > 0) {
+                        numberOfAttempts--;
+                        setTimeout(function () {
+                            $(listForSecondAttempt).each(function () {
+                                FillLocationDistance(this, $(this).data('location'));
+                            });
+                            listForSecondAttempt = [];
+                        }, 2000);
+                    }
+                }
+            });
+        }
+	}
+
+	function SortLocationsByDistance() {
+		var locations = $('.locationList .locationsList > li').get();
+		locations.sort(function (a, b) {
+			var distanceA = $(a).find('.location__distance').data('distance');
+			var distanceB = $(b).find('.location__distance').data('distance');
+
+			if (distanceA < distanceB) return -1;
+			if (distanceA > distanceB) return 1;
+			return 0;
+		});
+		var ul = $('.locationList .locationsList ');
+		$.each(locations, function (i, li) {
+			ul.append(li);
+		});
+    }
+
+	function SortLocations() {
+		var locations = $('.locationList .locationsList > li').get();
+
+        locations.sort(function (a, b) {
+            var orderA = $(a).data('order');
+            var orderB = $(b).data('order');
+
+            if (orderA < orderB) return -1;
+            if (orderA > orderB) return 1;
+            return 0;
+		});
+		var ul = $('.locationList .locationsList ');
+        $.each(locations, function (i, li) {
+            ul.append(li);
+        });
+    }
+
+	function FilterLocations(filter) {
+		$('.locationList .locationsList > li').show();
+
+        if (filter.status) {
+			$('.locationList .locationsList > li > div.location.cl').parent().hide();
+        }
+        else if (filter.mode) {
+			$('.locationList .locationsList > li > div.location.nofood').parent().hide();
+			var linksAll = $('.locationList .locationsList > li > div.location.food > a.card-link');
+
+            if (linksAll.length) {
+                for (var i = 0; i < linksAll.length; i++) {
+                    var href = $(linksAll[i]).attr("href");
+                    href = href.split("?")[0] + "?mode=FoodOrder";
+                    $(linksAll[i]).attr("href", href);
+                    $(linksAll[i]).addClass("food");
+                }
+            }
+        }
+        else if (filter.type) {
+			var locationsAll = $('.locationList .locationsList > li > div.location').get();
+            for (var i = 0, len = locationsAll.length; i < len; i++) {
+                var groups = $(locationsAll[i]).data("groups").split("|");
+                if ($.inArray(filter.type, groups) == -1) {
+                    $(locationsAll[i]).parent().hide();
+                }
+            }
+        }
+        else if (filter.location) {
+			$('.locationList .locationsList > li > div.location.nogeo').parent().hide();
+        }
+
+        if (!filter.location) {
+            SortLocations();
+        }
+
+        //remove ?mode=foodOrder from urls if not a Food Ordering mode
+        if (!filter.mode) {
+			if ($('.locationList .locationsList > li > div.location.food > a.card-link.food').length) {
+				var linksAll = $('.locationList .locationsList > li > div.location.food > a.card-link');
+
+                if (linksAll.length) {
+                    for (var i = 0; i < linksAll.length; i++) {
+                        var href = $(linksAll[i]).attr("href");
+                        $(linksAll[i]).attr("href", href.split("?")[0]);
+                    }
+                }
+            }
+        }
+    }
+</script>
+        <div id="locationList" class="locationList">
+            <div class="locations">
+                
+    <ul class="unstyled flex-grid flex-grid-31-children locationsList">		
+            <li data-order="0">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Restaurants" data-id="9356">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/Intermezzo" aria-label="Intermezzo">Intermezzo</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Proprietary/SandwichShack.ashx?mh=270&amp;mw=540&amp;hash=8CA04C85C858C8E28DFCE6F1EA659E821CF00441');">
+                        
+    <button class="favIcon meta-data-tag " data-location="9356" aria-label="Mark Intermezzo as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Intermezzo</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0417, -84.5021" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_9356" focusable="false">
+			<title id="mapMarkerSVG_9356">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		Patterson Hall
+			<br />Lexington, KY 40506	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_9356">
+									<title id="clockSVG_9356">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="1">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="" data-id="11485">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/AuntieAnnes" aria-label="Auntie Anne&#39;s">Auntie Anne&#39;s</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Pretzel.ashx?mh=270&amp;mw=540&amp;hash=E4695533272746D3C3E78F1BE5C09D6C59853450');">
+                        
+    <button class="favIcon meta-data-tag " data-location="11485" aria-label="Mark Auntie Anne&#39;s as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Auntie Anne&#39;s</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="3.804, -46.4628" data-distance="2147483647"></span>
+						</div>
+						
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_11485">
+									<title id="clockSVG_11485">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="2">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Dining Halls" data-id="11090">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/ChampionsKitchen" aria-label="Champions Kitchen">Champions Kitchen</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Pizza.ashx?mh=270&amp;mw=540&amp;hash=0E48980B6009608801EF60A5B52F980D3B5280BE');">
+                        
+    <button class="favIcon meta-data-tag " data-location="11090" aria-label="Mark Champions Kitchen as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Champions Kitchen</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0401, -84.5029" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_11090" focusable="false">
+			<title id="mapMarkerSVG_11090">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		165 Avenue of Champions
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_11090">
+									<title id="clockSVG_11090">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="3">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="" data-id="10022">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/Gatton-SC" aria-label="Wildcat Pantry Gatton Student Center">Wildcat Pantry Gatton Student Center</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Cookies-ChocoChip.ashx?mh=270&amp;mw=540&amp;hash=F261380D3C14CB6FEAC634122B6CDBACF9DE6517');">
+                        
+    <button class="favIcon meta-data-tag " data-location="10022" aria-label="Mark Wildcat Pantry Gatton Student Center as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Wildcat Pantry Gatton Student Center</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.04, 84.5028" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_10022" focusable="false">
+			<title id="mapMarkerSVG_10022">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		160 Avenue of Champions
+			<br />Lexington, KY 40506	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_10022">
+									<title id="clockSVG_10022">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="4">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Coffee" data-id="6965">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/​CommonGroundsDickeyHall" aria-label="Common  Grounds&#174; @ Dickey Hall">Common  Grounds&#174; @ Dickey Hall</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich-TurkeyVeggie.ashx?mh=270&amp;mw=540&amp;hash=68557C6ECA43C62B85BC28F484001D93C6750993');">
+                        
+    <button class="favIcon meta-data-tag " data-location="6965" aria-label="Mark Common  Grounds&#174; @ Dickey Hall as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Common  Grounds&#174; @ Dickey Hall</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0408, -84.5081" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_6965" focusable="false">
+			<title id="mapMarkerSVG_6965">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		251 Scott Street
+			<br />Lexington, KY 40506	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_6965">
+									<title id="clockSVG_6965">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="5">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Dining Halls" data-id="8328">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/FreshFoodCompany" aria-label="Fresh Food Company @ The 90">Fresh Food Company @ The 90</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/EntreeBowl-EggChicken.ashx?mh=270&amp;mw=540&amp;hash=783DCFA9AD2FC1963777B18A3AF56DE71828B6BC');">
+                        
+    <button class="favIcon meta-data-tag " data-location="8328" aria-label="Mark Fresh Food Company @ The 90 as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Fresh Food Company @ The 90</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0325, -84.5027" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_8328" focusable="false">
+			<title id="mapMarkerSVG_8328">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		440 Hilltop Avenue
+			<br />Lexington, KY 40506	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_8328">
+									<title id="clockSVG_8328">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="6">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Restaurants" data-id="6964">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/AgCommonGrounds" aria-label="Ag Common  Grounds&#174;">Ag Common  Grounds&#174;</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sandwich-TurkeyVeggie.ashx?mh=270&amp;mw=540&amp;hash=68557C6ECA43C62B85BC28F484001D93C6750993');">
+                        
+    <button class="favIcon meta-data-tag " data-location="6964" aria-label="Mark Ag Common  Grounds&#174; as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Ag Common  Grounds&#174;</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0288, -84.5093" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_6964" focusable="false">
+			<title id="mapMarkerSVG_6964">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		1100 Nicholasville Road
+			<br />Lexington, KY 40502	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_6964">
+									<title id="clockSVG_6964">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="7">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Coffee" data-id="6966">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/StarbucksatRB2" aria-label="Starbucks at RB2">Starbucks at RB2</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/Starbucks.ashx?mh=270&amp;mw=540&amp;hash=3C5971AD0445AC96B2F936EAEEE9D8842D78A650');">
+                        
+    <button class="favIcon meta-data-tag " data-location="6966" aria-label="Mark Starbucks at RB2 as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Starbucks at RB2</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0336, -84.5097" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_6966" focusable="false">
+			<title id="mapMarkerSVG_6966">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		789 South Limestone Street
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_6966">
+									<title id="clockSVG_6966">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="8">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Restaurants" data-id="9125">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/AquaSushi" aria-label="Aqua Sushi ">Aqua Sushi </a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Sushi-Veggie.ashx?mh=270&amp;mw=540&amp;hash=DBD50503063CD7F59F26306AF4631704F3F024D4');">
+                        
+    <button class="favIcon meta-data-tag " data-location="9125" aria-label="Mark Aqua Sushi  as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Aqua Sushi </span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0325, -84.5027" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_9125" focusable="false">
+			<title id="mapMarkerSVG_9125">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		440 Hilltop Avenue
+			<br />Lexington, KY 40506	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_9125">
+									<title id="clockSVG_9125">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="9">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Coffee" data-id="6973">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/BluegrassCafe" aria-label="Bluegrass Cafe">Bluegrass Cafe</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Pasta.ashx?mh=270&amp;mw=540&amp;hash=837F09D9E5A069CD14247296E45FD978EC36477B');">
+                        
+    <button class="favIcon meta-data-tag " data-location="6973" aria-label="Mark Bluegrass Cafe as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Bluegrass Cafe</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0247, -84.5038" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_6973" focusable="false">
+			<title id="mapMarkerSVG_6973">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		470 Cooper Drive
+			<br />Lexington, KY 40502	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_6973">
+									<title id="clockSVG_6973">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="10">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Coffee" data-id="9625">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/BriocheDoree" aria-label="Brioche Doree">Brioche Doree</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Local/Higher-Education/GroupB/Kentucky/Images/2018-03-19-09,-d-,08,-d-,02.ashx?mh=270&amp;mw=540&amp;hash=0292647EFFE60A2FF393ED5CA8411E732564839A');">
+                        
+    <button class="favIcon meta-data-tag " data-location="9625" aria-label="Mark Brioche Doree as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Brioche Doree</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0382, -84.5066" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_9625" focusable="false">
+			<title id="mapMarkerSVG_9625">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		550 S Limestone
+			<br />Lexington, KY 40526	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_9625">
+									<title id="clockSVG_9625">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="11">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="" data-id="7247">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/Chick-fil-A" aria-label="Chick-fil-A">Chick-fil-A</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/Chik-fil-A.ashx?mh=270&amp;mw=540&amp;hash=ACEA74B5D88DC23AA6A0FAFD0981C7A6C780BE64');">
+                        
+    <button class="favIcon meta-data-tag " data-location="7247" aria-label="Mark Chick-fil-A as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Chick-fil-A</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0398, -84.5035" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_7247" focusable="false">
+			<title id="mapMarkerSVG_7247">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		160 Avenue of the Champions
+			<br />Lexington, KY 40506	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_7247">
+									<title id="clockSVG_7247">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="12">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Coffee" data-id="6955">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/CommonGrounds" aria-label="Common  Grounds&#174;">Common  Grounds&#174;</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Coffee.ashx?mh=270&amp;mw=540&amp;hash=4A3593F9843AD2F6F2970469BD740B9F3AB54C3F');">
+                        
+    <button class="favIcon meta-data-tag " data-location="6955" aria-label="Mark Common  Grounds&#174; as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Common  Grounds&#174;</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0402, -84.502" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_6955" focusable="false">
+			<title id="mapMarkerSVG_6955">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		394 South Martin Luther King Blvd
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_6955">
+									<title id="clockSVG_6955">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="13">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Restaurants|Coffee" data-id="6963">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/EinsteinBros" aria-label="Einstein  Bros Bagels&#174;">Einstein  Bros Bagels&#174;</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/EinsteinBros.ashx?mh=270&amp;mw=540&amp;hash=9BC6C858E84568EB207ED3F55F9288D06E0BE82C');">
+                        
+    <button class="favIcon meta-data-tag " data-location="6963" aria-label="Mark Einstein  Bros Bagels&#174; as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Einstein  Bros Bagels&#174;</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0356, -84.504" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_6963" focusable="false">
+			<title id="mapMarkerSVG_6963">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		505 Rose Street
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_6963">
+									<title id="clockSVG_6963">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="14">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Restaurants" data-id="9353">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/Freshii" aria-label="Freshii">Freshii</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/Freshii.ashx?mh=270&amp;mw=540&amp;hash=0C253B2455338D33319CD29003CBAF55ADB601BA');">
+                        
+    <button class="favIcon meta-data-tag " data-location="9353" aria-label="Mark Freshii as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Freshii</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0337, -84.506" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_9353" focusable="false">
+			<title id="mapMarkerSVG_9353">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		680 Rose St
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_9353">
+									<title id="clockSVG_9353">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="15">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Restaurants" data-id="6967">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/ONE" aria-label="ONE Community Cafe">ONE Community Cafe</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Local/Higher-Education/GroupB/Kentucky/Images/Fusion---summer-salad.ashx?mh=270&amp;mw=540&amp;hash=AC0C0988DF3AF893E13775109F941DE96DEB91E6');">
+                        
+    <button class="favIcon meta-data-tag " data-location="6967" aria-label="Mark ONE Community Cafe as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">ONE Community Cafe</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0363, -84.5065" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_6967" focusable="false">
+			<title id="mapMarkerSVG_6967">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		101 Graham Avenue
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_6967">
+									<title id="clockSVG_6967">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="16">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Coffee" data-id="10720">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/CommonGroundsLewisHonorsCollege" aria-label="Common  Grounds&#174; @ Lewis Honors College">Common  Grounds&#174; @ Lewis Honors College</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/FoodCourt.ashx?mh=270&amp;mw=540&amp;hash=086EAA9C219145FAE7E7720805904F53E6090332');">
+                        
+    <button class="favIcon meta-data-tag " data-location="10720" aria-label="Mark Common  Grounds&#174; @ Lewis Honors College as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Common  Grounds&#174; @ Lewis Honors College</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0285, -8.45054" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_10720" focusable="false">
+			<title id="mapMarkerSVG_10720">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		1120 University Drive
+			<br />Lexington, KY 40526	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_10720">
+									<title id="clockSVG_10720">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="17">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Restaurants" data-id="6954">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/KLair" aria-label="K-Lair">K-Lair</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Local/Higher-Education/GroupB/Kentucky/Images/IMG_5279.ashx?mh=270&amp;mw=540&amp;hash=3FDEC9D94042F42C20A64B3A9EA3F72C17CEA2AC');">
+                        
+    <button class="favIcon meta-data-tag " data-location="6954" aria-label="Mark K-Lair as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">K-Lair</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0328, -84.5033" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_6954" focusable="false">
+			<title id="mapMarkerSVG_6954">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		373 Hilltop Avenue
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_6954">
+									<title id="clockSVG_6954">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="18">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Coffee" data-id="8825">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/LaMadeleine" aria-label="La Madeleine @ The 90">La Madeleine @ The 90</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Local/Higher-Education/GroupB/Kentucky/Images/La-Mad---Pasta.ashx?mh=270&amp;mw=540&amp;hash=D64A975EF525422F746D504CC78E7A77849D35ED');">
+                        
+    <button class="favIcon meta-data-tag " data-location="8825" aria-label="Mark La Madeleine @ The 90 as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">La Madeleine @ The 90</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0325, -84.5027" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_8825" focusable="false">
+			<title id="mapMarkerSVG_8825">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		440 Hilltop Avenue
+			<br />Lexington, KY 40506	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_8825">
+									<title id="clockSVG_8825">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="19">
+                <div tabindex="0" class="card location  geo nofood" 
+                     data-groups="Restaurants" data-id="9985">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/Papa-Johns" aria-label="Papa Johns">Papa Johns</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/PapaJohns.ashx?mh=270&amp;mw=540&amp;hash=D8B2544BEEE6D95EF195A8035E7DE31A5C374FAE');">
+                        
+    <button class="favIcon meta-data-tag " data-location="9985" aria-label="Mark Papa Johns as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Papa Johns</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0322, -84.5026" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_9985" focusable="false">
+			<title id="mapMarkerSVG_9985">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		440 Hilltop Avenue
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_9985">
+									<title id="clockSVG_9985">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="20">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="" data-id="7349">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/PandaExpress" aria-label="Panda Express">Panda Express</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/PandaExpress.ashx?mh=270&amp;mw=540&amp;hash=BFD625BD34A61178BA95AF5589AAADDC185B372E');">
+                        
+    <button class="favIcon meta-data-tag " data-location="7349" aria-label="Mark Panda Express as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Panda Express</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0398, -84.5035" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_7349" focusable="false">
+			<title id="mapMarkerSVG_7349">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		160 Avenue of the Champions
+			<br />Lexington, KY 40506	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_7349">
+									<title id="clockSVG_7349">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="21">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Coffee" data-id="6958">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/RisingRollGourmet" aria-label="Rising  Roll Gourmet Caf&#233;&#174;">Rising  Roll Gourmet Caf&#233;&#174;</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Salad-ChickenApple.ashx?mh=270&amp;mw=540&amp;hash=36BD92E6F8454CBAEFF4888302B23BAFE4A62053');">
+                        
+    <button class="favIcon meta-data-tag " data-location="6958" aria-label="Mark Rising  Roll Gourmet Caf&#233;&#174; as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Rising  Roll Gourmet Caf&#233;&#174;</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0376, -84.5049" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_6958" focusable="false">
+			<title id="mapMarkerSVG_6958">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		512 Administration Drive
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_6958">
+									<title id="clockSVG_6958">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="22">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Restaurants" data-id="9351">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/SteaknShake" aria-label="Steak &#39;n Shake">Steak &#39;n Shake</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Local/Higher-Education/GroupB/Kentucky/Images/SNS---Frisco/SNSPage-Banner/31073114_10155976590075041_1177885276165373952_o.ashx?mh=270&amp;mw=540&amp;hash=CFEB4490EA1685E660BF2D5C05F98DB83B18F73B');">
+                        
+    <button class="favIcon meta-data-tag " data-location="9351" aria-label="Mark Steak &#39;n Shake as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Steak &#39;n Shake</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0416, -84.5037" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_9351" focusable="false">
+			<title id="mapMarkerSVG_9351">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		111 Ave of Champions
+			<br />Lexington, KY 40526	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_9351">
+									<title id="clockSVG_9351">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="23">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Restaurants" data-id="6957">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/SubwayCafe" aria-label="Subway&#174; Caf&#233;">Subway&#174; Caf&#233;</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/Subway.ashx?mh=270&amp;mw=540&amp;hash=2BCD51946D398E9AA4B692A587F18808FC0E5D70');">
+                        
+    <button class="favIcon meta-data-tag " data-location="6957" aria-label="Mark Subway&#174; Caf&#233; as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Subway&#174; Caf&#233;</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0368, -84.5035" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_6957" focusable="false">
+			<title id="mapMarkerSVG_6957">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		100 Library Drive
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_6957">
+									<title id="clockSVG_6957">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="24">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Restaurants" data-id="8374">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/TacoBell" aria-label="Taco Bell @ The 90">Taco Bell @ The 90</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/TacoBell.ashx?mh=270&amp;mw=540&amp;hash=159434E01AEDA77121C93C8E41A97B6828CA4A54');">
+                        
+    <button class="favIcon meta-data-tag " data-location="8374" aria-label="Mark Taco Bell @ The 90 as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Taco Bell @ The 90</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0325, -84.5027" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_8374" focusable="false">
+			<title id="mapMarkerSVG_8374">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		440 Hilltop Avenue
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_8374">
+									<title id="clockSVG_8374">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="25">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Coffee" data-id="6971">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/StarbucksKentuckyClinic" aria-label="Starbucks&#174;  - Kentucky Clinic">Starbucks&#174;  - Kentucky Clinic</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/Starbucks.ashx?mh=270&amp;mw=540&amp;hash=3C5971AD0445AC96B2F936EAEEE9D8842D78A650');">
+                        
+    <button class="favIcon meta-data-tag " data-location="6971" aria-label="Mark Starbucks&#174;  - Kentucky Clinic as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Starbucks&#174;  - Kentucky Clinic</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0336, -84.5081" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_6971" focusable="false">
+			<title id="mapMarkerSVG_6971">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		740 South Limestone Street
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_6971">
+									<title id="clockSVG_6971">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="26">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Restaurants" data-id="7350">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/Subway" aria-label="Subway">Subway</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/Subway.ashx?mh=270&amp;mw=540&amp;hash=2BCD51946D398E9AA4B692A587F18808FC0E5D70');">
+                        
+    <button class="favIcon meta-data-tag " data-location="7350" aria-label="Mark Subway as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Subway</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0398, -84.5035" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_7350" focusable="false">
+			<title id="mapMarkerSVG_7350">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		160 Avenue of the Champions
+			<br />Lexington, KY 40506	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_7350">
+									<title id="clockSVG_7350">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="27">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="Convenience" data-id="6956">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/WillyTStarbucks" aria-label="Willy T Starbucks&#174;">Willy T Starbucks&#174;</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/National/Starbucks.ashx?mh=270&amp;mw=540&amp;hash=3C5971AD0445AC96B2F936EAEEE9D8842D78A650');">
+                        
+    <button class="favIcon meta-data-tag " data-location="6956" aria-label="Mark Willy T Starbucks&#174; as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Willy T Starbucks&#174;</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0329, -84.5018" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_6956" focusable="false">
+			<title id="mapMarkerSVG_6956">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		401 Hilltop Avenue
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_6956">
+									<title id="clockSVG_6956">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="28">
+                <div tabindex="0" class="card location  geo nofood" 
+                     data-groups="Convenience" data-id="9623">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/WildcatPantry90" aria-label="Wildcat Pantry @ The 90">Wildcat Pantry @ The 90</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Wrap-Turkey.ashx?mh=270&amp;mw=540&amp;hash=BBCB6E81A1F3D8483C4F58A9CCA804CEB09BB77A');">
+                        
+    <button class="favIcon meta-data-tag " data-location="9623" aria-label="Mark Wildcat Pantry @ The 90 as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Wildcat Pantry @ The 90</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0325, -84.5027" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_9623" focusable="false">
+			<title id="mapMarkerSVG_9623">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		440 Hilltop Avenue
+			<br />Lexington, KY 40506	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_9623">
+									<title id="clockSVG_9623">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="29">
+                <div tabindex="0" class="card location  geo nofood" 
+                     data-groups="Convenience" data-id="9355">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/WildcatPantryHolmes" aria-label="Wildcat Pantry at Holmes Hall">Wildcat Pantry at Holmes Hall</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Global/All-Divisions/Images/LocationsMenus/NavigationCards/Generic/Hoagie.ashx?mh=270&amp;mw=540&amp;hash=B6570AE1669848F039C4D940D385148682E832FF');">
+                        
+    <button class="favIcon meta-data-tag " data-location="9355" aria-label="Mark Wildcat Pantry at Holmes Hall as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Wildcat Pantry at Holmes Hall</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0415, -84.5036" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_9355" focusable="false">
+			<title id="mapMarkerSVG_9355">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		111 Ave of Champions
+			<br />Lexington, KY 40526	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_9355">
+									<title id="clockSVG_9355">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+            <li data-order="30">
+                <div tabindex="0" class="card location cl geo nofood" 
+                     data-groups="" data-id="9354">
+
+
+					<a tabindex="0" class="card-link meta-data-tag" href="/LocationsAndMenus/WildcatPantryJacobsScience" aria-label="Wildcat Pantry at Jacobs Science Building">Wildcat Pantry at Jacobs Science Building</a>
+
+                    <div class="card-header" style="background-image:url('/-/media/Local/Higher-Education/GroupB/Kentucky/Images/2018-04-11-13,-d-,52,-d-,30.ashx?mh=270&amp;mw=540&amp;hash=42934B8B9595DFD22EA5D535C4756981F999BB30');">
+                        
+    <button class="favIcon meta-data-tag " data-location="9354" aria-label="Mark Wildcat Pantry at Jacobs Science Building as Favorite">
+        <svg class="svg heart-outline" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z" />
+        </svg>
+
+        <svg class="svg heart" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false"> 
+            <path fill="#fff" d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z" />
+        </svg>
+    </button>
+
+
+
+                            <span class="card-title">Wildcat Pantry at Jacobs Science Building</span>
+                    </div>
+					<div class="card-block">
+						<div class="location__status">
+							<span></span>
+								<span class="location__distance" data-geocode="38.0382, -84.5066" data-distance="2147483647"></span>
+						</div>
+						
+	<div class="location__address">
+		<svg class="svg map-marker" viewBox="0 0 24 24" role="img" aria-labelledby="mapMarkerSVG_9354" focusable="false">
+			<title id="mapMarkerSVG_9354">Map Marker</title>
+			<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
+		</svg>
+		680 Rose St
+			<br />Lexington, KY 40508	</div>
+
+							<div class="location__times" style="display: none;">
+								<svg class="svg clock" viewBox="0 0 24 24" role="img" aria-labelledby="clockSVG_9354">
+									<title id="clockSVG_9354">Clock</title>
+									<path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+								</svg>
+								<span class="hop"></span>
+							</div>
+
+					</div>
+            </div>
+        </li>
+    </ul>
+<script>
+    var open24Hours = '24 Hours';
+</script>
+    <script>
+        function locationsLoaded() {
+            var openStatus = "Open";
+            var closedStatus = "Closed";
+			var opensAt = "Opens at ";
+			var locationHops = JSON.parse('[{"Id":"9356","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"11485","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"11090","HoursOfOperations":null,"Hops":[{"WeekDay":0,"UtcStartTime":"2019-04-12T14:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T10:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"Brunch","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T15:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T11:00:00Z","Period":"Breakfast","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"Lunch","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"Lunch","IsClosed":false},{"WeekDay":6,"UtcStartTime":"2019-04-12T14:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T10:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"Brunch","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":6,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"Lunch","IsClosed":false},{"WeekDay":0,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T15:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T11:00:00Z","Period":"Breakfast","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"Lunch","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T15:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T11:00:00Z","Period":"Breakfast","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T15:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T11:00:00Z","Period":"Breakfast","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T15:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T11:00:00Z","Period":"Breakfast","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"Lunch","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":0,"UtcStartTime":"2019-04-12T14:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T10:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":6,"UtcStartTime":"2019-04-12T14:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T10:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"10022","HoursOfOperations":null,"Hops":[{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"6965","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"8328","HoursOfOperations":null,"Hops":[{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T15:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T11:00:00Z","Period":"Breakfast","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"Lunch","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":0,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":0,"UtcStartTime":"2019-04-12T14:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T10:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"Brunch","IsClosed":false},{"WeekDay":6,"UtcStartTime":"2019-04-12T14:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T10:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"Brunch","IsClosed":false},{"WeekDay":6,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T15:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T11:00:00Z","Period":"Breakfast","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T15:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T11:00:00Z","Period":"Breakfast","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T15:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T11:00:00Z","Period":"Breakfast","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T15:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T11:00:00Z","Period":"Breakfast","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"Lunch","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"Lunch","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"Lunch","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"Lunch","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T21:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T17:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"Dinner","IsClosed":false},{"WeekDay":0,"UtcStartTime":"2019-04-12T14:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T10:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":6,"UtcStartTime":"2019-04-12T14:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T10:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"6964","HoursOfOperations":null,"Hops":[{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"6966","HoursOfOperations":null,"Hops":[{"WeekDay":5,"UtcStartTime":"2019-04-12T10:30:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T06:30:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T10:30:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T06:30:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T10:30:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T06:30:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T10:30:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T06:30:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T10:30:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T06:30:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"9125","HoursOfOperations":null,"Hops":[{"WeekDay":4,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"6973","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"9625","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T22:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T18:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T22:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T18:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T22:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T18:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T22:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T18:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"7247","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":6,"UtcStartTime":"2019-04-12T13:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T09:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"6955","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T12:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T08:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T12:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T08:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T12:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T08:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T12:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T08:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T12:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T08:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"6963","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T20:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T16:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T20:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T16:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T20:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T16:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T20:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T16:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"9353","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T20:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T16:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T20:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T16:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T20:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T16:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T20:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T16:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"6967","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T14:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T10:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T14:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T10:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T14:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T10:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T14:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T10:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T14:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T10:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"10720","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"6954","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"8825","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"9985","HoursOfOperations":"All Day 11:00am - 12:00am","Hops":[{"WeekDay":0,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":6,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"7349","HoursOfOperations":null,"Hops":[{"WeekDay":0,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"6958","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"9351","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"6957","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T12:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T08:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T12:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T08:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T12:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T08:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T12:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T08:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T12:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T08:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"8374","HoursOfOperations":null,"Hops":[{"WeekDay":0,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":6,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T02:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T22:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"6971","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T10:30:00Z","UtcEndTime":"2019-04-12T22:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T06:30:00Z","LocalEndTime":"2019-04-12T18:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T10:30:00Z","UtcEndTime":"2019-04-12T22:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T06:30:00Z","LocalEndTime":"2019-04-12T18:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T10:30:00Z","UtcEndTime":"2019-04-12T22:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T06:30:00Z","LocalEndTime":"2019-04-12T18:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T10:30:00Z","UtcEndTime":"2019-04-12T22:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T06:30:00Z","LocalEndTime":"2019-04-12T18:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T10:30:00Z","UtcEndTime":"2019-04-12T22:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T06:30:00Z","LocalEndTime":"2019-04-12T18:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"7350","HoursOfOperations":null,"Hops":[{"WeekDay":0,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T21:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T17:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"6956","HoursOfOperations":null,"Hops":[{"WeekDay":0,"UtcStartTime":"2019-04-12T13:00:00Z","UtcEndTime":"2019-04-13T03:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T09:00:00Z","LocalEndTime":"2019-04-12T23:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T03:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T23:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T03:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T23:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T03:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T23:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T03:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T23:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":6,"UtcStartTime":"2019-04-12T13:00:00Z","UtcEndTime":"2019-04-13T00:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T09:00:00Z","LocalEndTime":"2019-04-12T20:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"9623","HoursOfOperations":"All Day 7:00am - 12:00am","Hops":[{"WeekDay":0,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":6,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"9355","HoursOfOperations":"All Day 7:00am - 12:00am","Hops":[{"WeekDay":0,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":6,"UtcStartTime":"2019-04-12T15:00:00Z","UtcEndTime":"2019-04-12T04:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T11:00:00Z","LocalEndTime":"2019-04-12T00:00:00Z","Period":"All Day","IsClosed":false}]},{"Id":"9354","HoursOfOperations":null,"Hops":[{"WeekDay":1,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T20:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T16:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":2,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T20:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T16:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":3,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T08:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T04:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":4,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T08:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T04:00:00Z","Period":"All Day","IsClosed":false},{"WeekDay":5,"UtcStartTime":"2019-04-12T11:00:00Z","UtcEndTime":"2019-04-12T18:00:00Z","OnlineStartTime":"0001-01-01T00:00:00","OnlineEndTime":"0001-01-01T00:00:00","LocalStartTime":"2019-04-12T07:00:00Z","LocalEndTime":"2019-04-12T14:00:00Z","Period":"All Day","IsClosed":false}]}]');
+			var locationsAll = $('.locationList .locationsList > li > div.location').get();
+
+            for (var i = 0, len = locationsAll.length; i < len; i++) {
+                var elem = $(locationsAll[i]);
+                var id = elem.data("id");
+
+                var arr = jQuery.grep(locationHops, function (n, i) {
+                    return (n.Id == id);
+                });
+
+                if (arr.length > 0) {
+
+                    var shortClass = "cl";
+                    var fullClass = "closed";
+                    var hopStatus = closedStatus;
+					var hops = GetCurrentHOP(arr[0].Hops, false);
+
+					if (hops.length > 0) {
+                        shortClass = "op";
+                        fullClass = "open";
+                        hopStatus = openStatus;
+                    }
+                    elem.addClass(shortClass);
+
+                    var statusEl = elem.find('div.location__status');
+
+                    if (statusEl.length) {
+                        statusEl.addClass(fullClass);
+                        statusEl.children('span')[0].innerHTML = hopStatus;
+                    }
+
+                    var times = elem.find('div.location__times');
+                    times.show();
+                    var hop = times.children('.hop').get();
+
+					if (hop.length > 0) {
+						var opensAtTime = GetNearestOpeningTime(arr[0].Hops);
+						if (hops.length > 0) {
+							hop[0].innerHTML = FormatTimePeriod(hops);
+                        }
+						else if (opensAtTime) {
+							hop[0].innerHTML = opensAt + ' ' + opensAtTime;
+                        }
+                        else {
+                            times.hide();
+                        }
+
+                    }
+                }
+                else {
+                    elem.addClass("closed");
+                    elem.find('div.location__status').addClass("closed");
+                }
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", locationsLoaded);
+    </script>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="userNotLoggedInModal">
+    <div class="modal-dialog">
+        <div class="modal-content" aria-modal="true" role="dialog" aria-labelledby="userNotLoggedInLabel" aria-describedby="userNotLoggedInDesc">
+            <div class="modal-header">
+                <span tabindex="-1" class="modal-title" autofocus id="userNotLoggedInLabel">Add to favorites</span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+                <p id="userNotLoggedInDesc">You will need to login or register for an account in order to save favorite locations.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn outline" data-dismiss="modal">OK</button>
+                <button type="button" class="btn solid" data-dismiss="modal" onclick="location.href='/Login'">Login/Create Account</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        </div>
+    </main>
+
+
+    
+
+</div>
+
+
+
+<footer class="footer bg-dark">
+    <div class="container">
+        <div class="row">
+            
+<div class="col-xs-12">
+    
+
+<div class="primaryMenu">
+    <nav aria-label="footer">
+
+
+
+<ul class="unstyled navigation">
+                    <li>
+                        <a class="navigation__link" href="/LocationsAndMenus">
+                            Locations &amp; Menus
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="/HealthAndWellness">
+                            Health &amp; Wellness
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="/MealPlans">
+                            Meal Plans
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="/Sustainability">
+                            Sustainability
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="/Catering">
+                            Catering
+                        </a>
+                    </li>
+                    <li>
+                        <a class="navigation__link" href="/ContactUs">
+                            Contact Us
+                        </a>
+                    </li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+    $('#signOutButton').on('click',
+        function () {
+            location.href = '/api/accounts/logout';
+        })
+</script>
+<div class="secondaryMenu">
+    <ul class="unstyled navigation">
+                <li>
+                    <a href="/Careers" target="">
+                        Careers
+                    </a>
+                </li>
+                <li>
+                    <a href="/CarePackages" target="_blank">
+                        Care Packages
+                    </a>
+                </li>
+                <li>
+                    <a href="/TermsOfUse" target="">
+                        Terms Of Use
+                    </a>
+                </li>
+                <li>
+                    <a href="/Privacy" target="">
+                        Privacy
+                    </a>
+                </li>
+                <li>
+                    <a href="/Sitemap" target="">
+                        Sitemap
+                    </a>
+                </li>
+    </ul>
+    
+</div>
+    <div class="socialMedia">
+        <div><span class="socialMedia__title">Connect With Us On</span></div>
+        <ul class="unstyled socialMedia__links">
+                <li><a href="http://www.facebook.com/UKyDining" target="_blank"><img src="/-/media/Feature/SocialMedia/SocialLinks/Facebook.ashx?h=24&amp;w=24&amp;hash=63EE4787E4A543B36028916A136A3AA675152836" alt="Facebook"/></a></li>
+                <li><a href="http://www.Instagram.com/UKyDining" target="_blank"><img src="/-/media/Feature/SocialMedia/SocialLinks/Instagram.ashx?h=24&amp;w=24&amp;hash=A9E2F92ACF7FD240474F77BF86E8AE8BCD621BC4" alt="Instagram"/></a></li>
+                <li><a href="https://twitter.com/UKyDining" target="_blank"><img src="/-/media/Feature/SocialMedia/SocialLinks/Twitter.ashx?h=24&amp;w=24&amp;hash=F4EA02A5A6F3A3FDB945BFF46EC540DF6A2DE5C1" alt="Twitter"/></a></li>
+        </ul>
+    </div>
+
+    
+
+
+<small class="copyright">
+    &#169; Aramark 2019
+</small>
+</div>
+
+        </div>
+    </div>
+</footer>
+
+<div id="loading" role="alert">
+    <img src="/Assets/Images/ajax-loader.gif" alt="Loading..." />
+</div>
+
+<script src="/Assets/Scripts/jquery-ui.min.js"></script>
+<script src="/Assets/Scripts/accessibility.js"></script>
+<script src="/Assets/Scripts/addtohomescreen.js"></script>
+<script src="/Assets/Scripts/Aramark.ACP.Main.Website.Forms.js"></script>
+<script src="/Assets/Scripts/Aramark.ACP.Project.Main.js"></script>
+<script src="/Assets/Scripts/Aramark.ACP.Feature.Language.js"></script>
+<script src="/Assets/Scripts/Aramark.ACP.Feature.Navigation.Navigation.js"></script>
+<script src="/Assets/Scripts/Aramark.ACP.Feature.Locations.js"></script>
+<script src="/Assets/Scripts/Aramark.ACP.Feature.GetCurrentLocation.js"></script>
+<script src="/Assets/Scripts/moment.2.18.1.js"></script>
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyC1NMg5R3s2YkrU0xwu6940ABrHqak7Hgs"></script>
+<script src="/Assets/Scripts/Aramark.ACP.Feature.Locations.FavoritesManagement.js"></script>
+<script src="/Assets/Scripts/flickity.pkgd.js"></script>
+<script src="/Assets/Scripts/flickity-config.js"></script>
+
+
+</body>
+</html>

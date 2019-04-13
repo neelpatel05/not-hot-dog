@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="//cdn.optimizely.com/js/5750691296.js"></script>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=0, maximum-scale=1.0"/>
+	<title>Natural Wellbeing - Health and Wellness, Naturally</title>
+	
+<!-- This site is optimized with the Yoast SEO plugin v10.0.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Find holistic and natural health advice from our experts at the Natural Wellbeing Blog"/>
+<link rel="canonical" href="" />
+<link rel="next" href="/blog/page/2/" />
+<link rel="publisher" href="https://plus.google.com/+Naturalwellbeing"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Natural Wellbeing - Health and Wellness, Naturally" />
+<meta property="og:description" content="Find holistic and natural health advice from our experts at the Natural Wellbeing Blog" />
+<meta property="og:site_name" content="Natural Wellbeing" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Find holistic and natural health advice from our experts at the Natural Wellbeing Blog" />
+<meta name="twitter:title" content="Natural Wellbeing - Health and Wellness, Naturally" />
+<meta name="twitter:site" content="@NaturalWellBein" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"\/blog\/#website","url":"\/blog\/","name":"Natural Wellbeing","potentialAction":{"@type":"SearchAction","target":"\/blog\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="amphtml" href="/blog/amp/" /><link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='/blog/wp-includes/css/dist/block-library/style.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-popular-posts-css-css'  href='/blog/wp-content/plugins/wordpress-popular-posts/public/css/wpp.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C700&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-css'  href='/blog/wp-content/themes/naturalwellbeing/style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='/blog/wp-content/themes/naturalwellbeing/responsive.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='/blog/wp-content/themes/naturalwellbeing/font-awesome.css?ver=1.0' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpp_params = {"sampling_active":"0","sampling_rate":"100","ajax_url":"\/blog\/wp-json\/wordpress-popular-posts\/v1\/popular-posts\/","ID":"","token":"289c921f96","debug":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/blog/wp-content/plugins/wordpress-popular-posts/public/js/wpp-4.2.0.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='/blog/wp-content/themes/naturalwellbeing/js/jquery.js?ver=5.1.1'></script>
+<script type='text/javascript' src='/blog/wp-content/themes/naturalwellbeing/js/main.js?ver=1.0'></script>
+<link rel='https://api.w.org/' href='/blog/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.1.1" />
+<link rel="stylesheet" type="text/css" href="//naturalwellbeing.resultspage.com/autocomplete/sli-rac.css"> 
+</head>
+<body>
+
+<!-- Page Hiding Snippet: Minimize page flickering (From Optimize admin panel)  -->  
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-5TNGG7K':true});</script>
+	
+	<!-- Google Analytics modified snippet with Google Optimize plugin (From Optimize admin panel) -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-981819-1', 'auto', {allowLinker: true});
+  ga('require', 'GTM-5TNGG7K');
+</script>
+	
+
+
+
+	
+<!--   Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MJ9K"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJ9K');</script>
+<!-- End Google Tag Manager -->
+
+<div id="page">
+
+<div id="top"><div id="top-width" class="width">
+	<div id="top-left">
+		<ul>
+			<li><a href="http://www.naturalwellbeing.com/">Store</a></li>
+			<li><a href="http://www.naturalwellbeing.com/learning-center/">Learning Center</a></li>
+			<li class="active"><a href="http://www.naturalwellbeing.com/learning-center/Main_Page">Blog</a></li>
+			<li><a href="http://www.naturalwellbeing.com/">Pet Wellbeing</a></li>
+		</ul>
+	</div>
+	<div id="top-right">
+		<ul>
+			<li><span>Call 1-800-536-9353</span></li>
+			<li><a href="http://www.naturalwellbeing.com/nwb/contactus">Contact Us</a></li>
+			<li><a href="http://www.naturalwellbeing.com/account">My Account</a></li>
+		</ul>
+	</div>
+</div></div>
+
+<div id="header"><div id="header-width" class="width">
+	<h1><a href="http://www.naturalwellbeing.com/" class="notext">Natural Wellbeing</a></h1>
+<div id="search">
+<form action="/blog/">
+<input type="text" name="s" value="Enter Search Terms" class="search-text" />
+<input type="submit" value="" class="search-button" />
+</form>
+</div>
+<script type="text/javascript"> 
+function isMobile(){
+if( navigator.userAgent.match(/Android/i) ||
+navigator.userAgent.match(/webOS/i) ||
+navigator.userAgent.match(/iPhone/i) ||
+navigator.userAgent.match(/iPod/i) ||
+navigator.userAgent.match(/iPad/i) ||
+navigator.userAgent.match(/BlackBerry/)
+){
+return true
+}
+return false
+}
+if (!isMobile())
+{
+$('#header form').attr('action','http://search.naturalwellbeing.com/search');
+$('#header input.search-text').attr('name','w');
+$('#header form').append('<input type="hidden" name="af" value="type:blog">');
+}
+</script>
+
+
+</div></div>
+
+<div id="menu"><div id="menu-width" class="width">
+	<div id="menu-mobile">Menu</div>
+	<ul>
+		<li><a href="http://www.naturalwellbeing.com/">Home</a></li>
+		<li><a href="http://www.naturalwellbeing.com/c/condition">Health Conditions</a></li>
+		<li><a href="http://www.naturalwellbeing.com/products">Products A-Z</a></li>
+		<li><a href="http://www.naturalwellbeing.com/meetexperts">Expert Advice</a></li>
+		<li><a href="http://www.naturalwellbeing.com/cart"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+	</ul>
+</div></div>
+
+<div id="path"><div id="path-width" class="width">
+	<span>Your location:</span>
+	<a href="http://www.naturalwellbeing.com/">Home</a> &gt;
+	<a href="/blog/">Blog</a> &gt;
+</div></div>
+
+
+<div id="body"><div id="body-width" class="width">
+	<div id="main">
+		<h2 class="page-title">Blog</h2>
+		<div id="posts">
+			<div class="post">
+				<p class="post-image"><a href="/blog/tossing-and-turning-why-cant-you-sleep-at-night/">
+					<img src="/blog/wp-content/themes/naturalwellbeing/thumbnail.php?src=%2Fblog%2Fwp-content%2Fuploads%2Finsomnia-picture-id526506645.jpg&amp;w=218&amp;h=218" alt="image" />
+				</a></p>
+				<h2 class="post-title"><a href="/blog/tossing-and-turning-why-cant-you-sleep-at-night/">Tossing and Turning: Why Can&#8217;t You Sleep at Night?</a></h2>
+				<p class="post-meta">Posted in <span></span> on April 10, 2019</p>
+				<p>Insomnia affects millions of people every night, preventing them from getting a full night’s rest. A lack of quality sleep is not only frustrating, but it can be absolutely detrimental to your health. Sleep is necessary for your body to heal after injuries, for your immune system to fight against foreign invaders and for your [&hellip;]</p>
+				<p><a href="/blog/tossing-and-turning-why-cant-you-sleep-at-night/" class="button">Continue Reading</a></p>
+			</div>
+			<div class="post">
+				<p class="post-image"><a href="/blog/try-no-heat-hairstyles-for-damage-free-locks/">
+					<img src="/blog/wp-content/themes/naturalwellbeing/thumbnail.php?src=%2Fblog%2Fwp-content%2Fuploads%2Fwoman-applying-spray-on-curly-brown-hair-picture-id875961794.jpg&amp;w=218&amp;h=218" alt="image" />
+				</a></p>
+				<h2 class="post-title"><a href="/blog/try-no-heat-hairstyles-for-damage-free-locks/">Try No-Heat Hairstyles for Damage-Free Locks!</a></h2>
+				<p class="post-meta">Posted in <span><a href="/blog/hair-care/">Hair Care</a></span> on April 7, 2019</p>
+				<p>Styling your hair—whether it’s long, short, or somewhere in between—is a great way to complete a dressy look or amp up a casual outfit. However, many of the traditional styling methods you probably know involve a combination of heavy hair products and heat styling tools. Curling irons and straighteners are usually okay when used only [&hellip;]</p>
+				<p><a href="/blog/try-no-heat-hairstyles-for-damage-free-locks/" class="button">Continue Reading</a></p>
+			</div>
+			<div class="post">
+				<p class="post-image"><a href="/blog/top-sources-of-protein-for-vegetarian-diets/">
+					<img src="/blog/wp-content/themes/naturalwellbeing/thumbnail.php?src=%2Fblog%2Fwp-content%2Fuploads%2Fnourishing-buddha-bowl-with-tofu-quinoa-and-vegetables-picture-id955998758.jpg&amp;w=218&amp;h=218" alt="image" />
+				</a></p>
+				<h2 class="post-title"><a href="/blog/top-sources-of-protein-for-vegetarian-diets/">Top Sources of Protein for Vegetarian Diets</a></h2>
+				<p class="post-meta">Posted in <span><a href="/blog/diet/">Diet</a></span> on April 4, 2019</p>
+				<p>Whether it’s a lifestyle choice or a diet change for health purposes, making the switch to a vegetarian diet can be challenging for many people. The decision to give up meat and rely on mostly plant food sources can be great for your health, but you need to know how to do it correctly in [&hellip;]</p>
+				<p><a href="/blog/top-sources-of-protein-for-vegetarian-diets/" class="button">Continue Reading</a></p>
+			</div>
+			<div class="post">
+				<p class="post-image"><a href="/blog/feeling-stressed-watch-some-cute-animal-videos/">
+					<img src="/blog/wp-content/themes/naturalwellbeing/thumbnail.php?src=%2Fblog%2Fwp-content%2Fuploads%2Fcheerful-toothy-smiling-happy-mother-and-her-little-curious-daughter-picture-id926718342.jpg&amp;w=218&amp;h=218" alt="image" />
+				</a></p>
+				<h2 class="post-title"><a href="/blog/feeling-stressed-watch-some-cute-animal-videos/">Feeling Stressed? Watch Some Cute Animal Videos!</a></h2>
+				<p class="post-meta">Posted in <span></span> on April 1, 2019</p>
+				<p>When you are having a rough day, can’t seem to get out of your head or feel the weight of the world pressing on your shoulders, there are a lot of stress relief tactics available for you to try. Some of these might involve yoga and mindfulness, taking a bath, self-care or exercise. But did [&hellip;]</p>
+				<p><a href="/blog/feeling-stressed-watch-some-cute-animal-videos/" class="button">Continue Reading</a></p>
+			</div>
+			<div class="post">
+				<p class="post-image"><a href="/blog/7-ways-to-naturally-soothe-menstrual-cramps/">
+					<img src="/blog/wp-content/themes/naturalwellbeing/thumbnail.php?src=%2Fblog%2Fwp-content%2Fuploads%2Funhealthy-young-woman-with-stomachache-leaning-on-the-bed-at-home-picture-id956151356.jpg&amp;w=218&amp;h=218" alt="image" />
+				</a></p>
+				<h2 class="post-title"><a href="/blog/7-ways-to-naturally-soothe-menstrual-cramps/">7 Ways to Naturally Soothe Menstrual Cramps</a></h2>
+				<p class="post-meta">Posted in <span><a href="/blog/general-wellbeing/">General Wellbeing</a></span> on March 30, 2019</p>
+				<p>Menstrual cramps, one painful side effect of nature’s “monthly gift” to women, can range from non-existent to mild to absolutely debilitating for some. Cramps are a perfectly normal part of menstruation, but they can make managing day-to-day activities difficult, especially if you are someone who experiences cramps on the more extreme side. Menstrual cramps are [&hellip;]</p>
+				<p><a href="/blog/7-ways-to-naturally-soothe-menstrual-cramps/" class="button">Continue Reading</a></p>
+			</div>
+			<div class="post">
+				<p class="post-image"><a href="/blog/what-is-co-washing-and-is-it-right-for-my-hair/">
+					<img src="/blog/wp-content/themes/naturalwellbeing/thumbnail.php?src=%2Fblog%2Fwp-content%2Fuploads%2Fhair-care-concept-back-view-of-woman-with-long-wet-hair-white-picture-id693433440.jpg&amp;w=218&amp;h=218" alt="image" />
+				</a></p>
+				<h2 class="post-title"><a href="/blog/what-is-co-washing-and-is-it-right-for-my-hair/">What is Co-Washing and Is It Right for My Hair?</a></h2>
+				<p class="post-meta">Posted in <span><a href="/blog/hair-care/">Hair Care</a></span> on March 27, 2019</p>
+				<p>For people with dry or curly hair, finding the balance between keeping hair clean and keeping hair moisturized can be extremely difficult. Traditional shampoos tend to strip the hair of oils and moisture, leaving strands looking and feeling brittle and dull. However, hair products and dirt still build up over time and need to be [&hellip;]</p>
+				<p><a href="/blog/what-is-co-washing-and-is-it-right-for-my-hair/" class="button">Continue Reading</a></p>
+			</div>
+			<div class="post">
+				<p class="post-image"><a href="/blog/too-lazy-to-wash-your-face-be-wary-of-styes/">
+					<img src="/blog/wp-content/themes/naturalwellbeing/thumbnail.php?src=%2Fblog%2Fwp-content%2Fuploads%2Fwoman-has-a-pain-in-the-eye-picture-id961381540.jpg&amp;w=218&amp;h=218" alt="image" />
+				</a></p>
+				<h2 class="post-title"><a href="/blog/too-lazy-to-wash-your-face-be-wary-of-styes/">Too Lazy to Wash Your Face? Be Wary of Styes!</a></h2>
+				<p class="post-meta">Posted in <span><a href="/blog/eye-care/">Eye care</a></span> on March 23, 2019</p>
+				<p>Makeup wearers everywhere know the struggle of settling in for the night, only to realize they’re still wearing the full face of makeup they applied that morning. While dermatologists urge everyone to wash their face each morning and night to keep the skin free of impurities, there are just some times when it feels easier [&hellip;]</p>
+				<p><a href="/blog/too-lazy-to-wash-your-face-be-wary-of-styes/" class="button">Continue Reading</a></p>
+			</div>
+			<div class="post">
+				<p class="post-image"><a href="/blog/reasons-your-child-cant-concentrate-in-school-and-how-to-help/">
+					<img src="/blog/wp-content/themes/naturalwellbeing/thumbnail.php?src=%2Fblog%2Fwp-content%2Fuploads%2Fbullying-at-school-picture-id950609920.jpg&amp;w=218&amp;h=218" alt="image" />
+				</a></p>
+				<h2 class="post-title"><a href="/blog/reasons-your-child-cant-concentrate-in-school-and-how-to-help/">Reasons Your Child Can&#8217;t Concentrate in School and How to Help</a></h2>
+				<p class="post-meta">Posted in <span></span> on March 21, 2019</p>
+				<p>You send your children to school expecting that they will return with their brains full of new material and a zest for learning. While many children thrive at school, what happens if your child returns home, but they have a note from their teacher stating that they were being disruptive or distracted in class, instead? [&hellip;]</p>
+				<p><a href="/blog/reasons-your-child-cant-concentrate-in-school-and-how-to-help/" class="button">Continue Reading</a></p>
+			</div>
+			<div class="post">
+				<p class="post-image"><a href="/blog/can-you-get-acne-on-your-scalp/">
+					<img src="/blog/wp-content/themes/naturalwellbeing/thumbnail.php?src=%2Fblog%2Fwp-content%2Fuploads%2Fyoung-nervous-woman-looks-at-her-hair-in-the-mirror-picture-id898902820.jpg&amp;w=218&amp;h=218" alt="image" />
+				</a></p>
+				<h2 class="post-title"><a href="/blog/can-you-get-acne-on-your-scalp/">Can You Get Acne on Your Scalp?</a></h2>
+				<p class="post-meta">Posted in <span><a href="/blog/hair-care/">Hair Care</a></span> on March 17, 2019</p>
+				<p>Does this situation sound familiar? You get up in the morning and pick up a brush or comb to run through your tangled hair. As you’re brushing, your brush hits your scalp and you feel a sudden twinge of pain. When you touch the area to identify the cause, you discover a small, painful bump [&hellip;]</p>
+				<p><a href="/blog/can-you-get-acne-on-your-scalp/" class="button">Continue Reading</a></p>
+			</div>
+			<div class="post">
+				<p class="post-image"><a href="/blog/your-mental-health-can-affect-your-libido-how-to-improve-your-happiness-and-get-in-the-mood/">
+					<img src="/blog/wp-content/themes/naturalwellbeing/thumbnail.php?src=%2Fblog%2Fwp-content%2Fuploads%2Fcouple-having-problems-picture-id619767174.jpg&amp;w=218&amp;h=218" alt="image" />
+				</a></p>
+				<h2 class="post-title"><a href="/blog/your-mental-health-can-affect-your-libido-how-to-improve-your-happiness-and-get-in-the-mood/">Your Mental Health Can Affect Your Libido: How to Improve Your Happiness and Get in the Mood</a></h2>
+				<p class="post-meta">Posted in <span></span> on March 13, 2019</p>
+				<p>For most couples, intimacy is a critical component of a relationship. But if you suffer from mental health issues like anxiety and depression, or even things like fatigue and chronic stress, your libido might suffer, as well. For many, the stress that comes with a decreased libido and the potential problems it causes in a [&hellip;]</p>
+				<p><a href="/blog/your-mental-health-can-affect-your-libido-how-to-improve-your-happiness-and-get-in-the-mood/" class="button">Continue Reading</a></p>
+			</div>
+				<div class="pagination">
+		<span class="numbered page-number-1 current-numeric-page">1</span>
+		<a href="/blog/page/2/" class="numbered page-number-2">2</a>
+		<a href="/blog/page/3/" class="numbered page-number-3">3</a>
+		<a href="/blog/page/4/" class="numbered page-number-4">4</a>
+		<a href="/blog/page/5/" class="numbered page-number-5">5</a>
+		<a href="/blog/page/6/" class="numbered page-number-6">6</a>
+		<a href="/blog/page/7/" class="numbered page-number-7">7</a>
+		<a href="/blog/page/8/" class="numbered page-number-8">8</a>
+		<a href="/blog/page/9/" class="numbered page-number-9">9</a>
+		<a href="/blog/page/10/" class="numbered page-number-10">10</a>
+		<a href="/blog/page/2/" class="numbered page-number-last">&rarr;</a>
+	</div>
+
+		</div>
+	</div>
+			<div id="sidebar">
+			<div id="sidebar-search">
+
+<form action="//search.naturalwellbeing.com/search" onsubmit="return ajaxsearchsubmit(this)" > 
+<input type="text" name="w" value="Search Blog" class="sidebar-search-text" autocomplete="off" data-provide="rac" /> 
+        <input type="hidden" name="af" value="type:blog"> 
+<input type="submit" value="" class="sidebar-search-button" /> 
+</form> 
+
+				<!--form action="<?php# echo home_url('/'); ?>">
+					<input type="text" name="s" value="Search Blog" class="sidebar-search-text" />
+					<input type="submit" value="" class="sidebar-search-button" />
+				</form-->
+			</div>
+					</div>
+</div></div>
+
+<div id="footer"><div id="footer-width" class="width">
+	<div id="footer-left">
+		<div id="footer-column-1" class="footer-column">
+			<h4>Customer Service</h4>
+			<ul>
+				<li><a href="http://www.naturalwellbeing.com/nwb/shipping">Shipping</a></li>
+				<li><a href="http://www.naturalwellbeing.com/nwb/refund_policy">Refund Poicy</a></li>
+				<li><a href="http://www.naturalwellbeing.com/nwb/frequently-asked-questions">FAQ</a></li>
+				<li><a href="http://www.naturalwellbeing.com/nwb/contactus">Contact Us</a></li>
+				<li><a href="http://www.naturalwellbeing.com/sl/MailFaxOrder.pdf">Mail Order Form</a></li>
+			</ul>
+		</div>
+		<div id="footer-column-2" class="footer-column">
+			<h4>About Us</h4>
+			<ul>
+				<li><a href="http://www.naturalwellbeing.com/nwb/guarantee">90 Day Guarantee</a></li>
+				<li><a href="http://www.naturalwellbeing.com/meetexperts">Meet Our Experts</a></li>
+				<li><a href="http://www.naturalwellbeing.com/nwb/wholesale">Wholesale &amp; Partnership</a></li>
+				<li><a href="http://www.naturalwellbeing.com/nwb/aboutus">Company Info</a></li>
+			</ul>
+		</div>
+		<div id="footer-column-3" class="footer-column">
+			<h4>Resources</h4>
+			<ul>
+				<li><a href="http://www.naturalwellbeing.com/blog">Natural Wellbeing Blog</a></li>
+				<li><a href="http://www.naturalwellbeing.com/learning-center/">Learning Center</a></li>
+			</ul>
+		</div>
+		<div id="footer-payment">
+			<img src="/blog/wp-content/themes/naturalwellbeing/img/footer-payment-1.png" width="239" height="29" alt="" />
+			<a href="http://ssl.comodo.com/" target="_blank"><img src="/blog/wp-content/themes/naturalwellbeing/img/footer-payment-2.png" width="46" height="29" alt="" /></a>
+			<a href="https://www.bbb.org/online/consumer/cks.aspx?id=110020517059" target="_blank"><img src="/blog/wp-content/themes/naturalwellbeing/img/footer-payment-3.png" width="76" height="29" alt="" /></a>
+			<a href="https://verify.authorize.net/anetseal/?pid=c30f25fd-f69f-4ab7-9533-9d52b78126a9&rurl=http%3A//www.naturalwellbeing.com/" target="_blank"><img src="/blog/wp-content/themes/naturalwellbeing/img/footer-payment-4.png" width="37" height="29" alt="" /></a>
+			<a href="https://www.paypal.com/us/verified/pal=miles%40naturalwellbeing.com" target="_blank"><img src="/blog/wp-content/themes/naturalwellbeing/img/footer-payment-5.png" width="29" height="29" alt="" /></a>
+		</div>
+	</div>
+	<div id="footer-right">
+		<div id="footer-column-4" class="footer-column">
+			<h4>Need Assistance</h4>
+			<div id="footer-contact">
+				<a href="tel:1-800-536-9353">+1.800.536.9353<br/>
+					Mon - Fri 9am to 9pm EST<br/>
+					Sat - Sun 11am to 8pm EST</a>
+				<a href="mailto:customerservice@naturalwellbeing.com">customerservice@naturalwellbeing.com</a>
+			</div>
+			<h4>Follow Us</h4>
+			<div id="footer-social">
+				<a href="https://www.facebook.com/NaturalWellbeing"><i class="fa fa-facebook"></i></a>
+				<a href="http://twitter.com/NaturalWellBein"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.youtube.com/user/NaturalWellbeing"><i class="fa fa-youtube"></i></a>
+			</div>
+		</div>
+	</div>
+	<div id="subfooter">
+		<div id="footer-copyright">Natural Wellbeing Distribution Inc. (C) 2001-2016</div>
+		<div id="footer-location">All Products Shipped From McDonough, Georgia</div>
+		<div id="footer-menu">
+			<ul>
+				<li><a href="http://www.naturalwellbeing.com/nwb/secure">Site Security</a></li>
+				<li><a href="http://www.naturalwellbeing.com/nwb/terms">Terms and Conditions</a></li>
+				<li><a href="http://www.naturalwellbeing.com/nwb/privacy_policy">Privacy Policy</a></li>
+			</ul>
+		</div>
+	</div>
+</div></div>
+
+</div>
+<script type="text/javascript" src="//naturalwellbeing.resultspage.com/autocomplete/sli-rac.config.js"></script> 
+</body>
+
+<script type='text/javascript' src='/blog/wp-includes/js/wp-embed.min.js?ver=5.1.1'></script>
+
+<!-- Google Code for Visitors to the Blog -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1027029651;
+var google_conversion_label = "f2JKCI-yqgMQk_Xc6QM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1027029651/?value=0&amp;label=f2JKCI-yqgMQk_Xc6QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+ 
+<script bronto-popup-id="3e367850-a4c6-4101-95fa-a5d1e862d7b3" src="https://cdn.bronto.com/popup/delivery.js"></script>
+
+</html>

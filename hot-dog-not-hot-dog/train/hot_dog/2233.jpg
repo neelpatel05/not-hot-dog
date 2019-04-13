@@ -1,0 +1,69 @@
+ 
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="js/web.js"></script>
+<script language="javascript" type="text/javascript" src="js/adver.js"></script>
+<script language="javascript" type="text/javascript" src="js/common.js"></script>
+ <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+ <script>
+	var url
+	url=returnCitySN.cname
+	
+		switch(url)
+		{
+			case "安徽省合肥市":
+		  		 window.location.href="http://hefei.ah777.com"; 
+			  break;
+			case "安徽省芜湖市":
+				 window.location.href="http://wuhu.ah777.com"; 
+			  break;
+			case "安徽省马鞍山市":
+				 window.location.href="http://maanshan.ah777.com"; 
+			  break;
+			case "安徽省六安市":
+				 window.location.href="http://luan.ah777.com"; 
+			  break;
+			case "安徽省安庆市":
+				 window.location.href="http://anqing.ah777.com"; 
+			  break;
+			case "安徽省蚌埠市":
+				 window.location.href="http://bengbu.ah777.com"; 
+			  break;
+			case "安徽省铜陵市":
+				 window.location.href="http://tongling.ah777.com"; 
+			  break;
+			case "安徽省黄山市":
+				 window.location.href="http://huangshan.ah777.com"; 
+			  break;
+			case "安徽省淮南市":
+				 window.location.href="http://huainan.ah777.com"; 
+			  break;
+			case "安徽省淮北市":
+				 window.location.href="http://huaibei.ah777.com"; 
+			  break;
+ 			case "安徽省阜阳市":
+				 window.location.href="http://fuyang.ah777.com"; 
+			  break;
+			case "安徽省宿州市":
+				 window.location.href="http://suzhou.ah777.com"; 
+			  break;
+			case "安徽省滁州市":
+				 window.location.href="http://chuzhou.ah777.com"; 
+			  break;	
+			case "安徽省宣城市":
+				 window.location.href="http://xuancheng.ah777.com"; 
+			  break;
+			case "安徽省池州市":
+				 window.location.href="http://chizhou.ah777.com"; 
+			  break;
+			case "安徽省亳州市":
+				 window.location.href="http://bozhou.ah777.com"; 
+			  break;			  			  		  
+ 			default:
+		  		 window.location.href="http://hefei.ah777.com"; 
+		}	
+ 
+ 	
+</script>
+
+ 

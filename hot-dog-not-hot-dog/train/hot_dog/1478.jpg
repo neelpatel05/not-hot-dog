@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta NAME="ROBOTS" CONTENT="NOARCHIVE" /> 
+<meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="refresh" content="5; url=//www.ttv.com.tw" />
+<title>404 - File or directory not found</title>
+<meta name="description" content="404 - 找不到檔案或目錄。" />
+<link rel="canonical" href="http://www.ttv.com.tw/errorlog/404.asp" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+<style type="text/css">
+body {
+    font-size:1.5em;
+/*    COLOR: #333333;  */
+    LINE-HEIGHT: 1.8em;
+	FONT: Verdana, Arial, Helvetica, sans-serif, 新細明體, 細明體;
+    LETTER-SPACING: 1px
+}
+
+a:link
+{
+    TEXT-DECORATION: none
+}
+
+a:hover
+{
+    COLOR: #ff0000;
+}
+
+.br
+{
+    CLEAR: both;
+    PADDING-TOP: 5px;
+}
+.br2x
+{
+    CLEAR: both;
+    PADDING-TOP: 10px;
+}
+
+.br4x
+{
+    CLEAR: both;
+    PADDING-TOP: 20px;
+}
+
+/* PlaceHolder */
+.PLDropDown {
+	padding:0px 0 0 44px;
+}	
+
+.PLDropDown-menu 
+{
+	width:280px;
+}	
+
+</style>
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+     <!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="margin-right:20px;">
+				<span class="sr-only">點擊顯示</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/" style="margin-left:10px;">
+				<img src="/errorlog/images/ttvlogo48.png" style="border:0;height:36px;margin:-22px; 0 0 0;padding:0 20px 0 10px;" alt="台視網站" />
+			</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="//www.ttv.com.tw/taiwan/">節目</a>
+				</li>
+				<li>
+					<a href="//www.ttv.com.tw/news/">新聞</a>
+				</li>
+				<li>
+					<a href="//www.ttv.com.tw/finance/">財經</a>
+				</li>
+				<li>
+					<a href="//www.ttv.com.tw/videocity/">影音</a>
+				</li>
+				<li class="hidden-sm hidden-xs">
+					<a href="//bb.ttv.com.tw/" target="_blank">論壇</a>
+				</li>
+				<li>
+					<a href="//www.ttv.com.tw/lohas/" target="_blank">常春</a>
+				</li>
+				<li class="hidden-sm hidden-xs">
+					<a href="//www.ttv.com.tw/cuisine/">美食</a>
+				</li>
+                <li class="dropdown hidden-sm hidden-xs">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        購物 <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="//ishopping.ttv.com.tw/" target="_blank">
+                                <img src="//www.ttv.com.tw/group/images/800_logo_iSHOPPING.png" style="width:100px;"></img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="//www.ttvshopping.com.tw/" target="_blank">
+                                <img src="//www.ttv.com.tw/group/images/800_logo_ttvshopping.png" style="width:100px;"></img>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						節目表 <b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="//www.ttv.com.tw/taiwan/ProgramList.asp">臺灣電視台</a>
+						</li>
+                        <li>
+                          <a href="//www.ttv.com.tw/taiwan/HDProgramList.asp">台視新聞台</a>
+                        </li>
+                        <li>
+							<a href="//www.ttv.com.tw/finance/ProgramList.asp">台視財經台</a>
+						</li>
+						<li>
+							<a href="//www.ttv.com.tw/health/ProgramList.asp">台視綜合台</a>
+						</li>
+						</ul>
+				</li>
+				<li class="hidden-sm hidden-xs">
+					<a href="http://blog.ttv.com.tw/" target="_blank">部落格</a>
+				</li>
+			</ul>
+			<script type="text/javascript" src="/include/js/mbr_init_utf8.js"></script>
+			<ul class="nav navbar-nav navbar-right hidden-sm">
+				<li class="dropdown">
+					<!--<div style="padding:15px 10px 0 12px;">-->
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<span class="glyphicon glyphicon-user"></span>
+					</a>
+					<!--<script type="text/javascript">mbr_init();</script>-->
+					<ul class="dropdown-menu PLDropDown-menu">
+						<li>
+							<div id="member_login" class="PLDropDown">
+								<script type="text/javascript">mbr_init();</script>
+							</div>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<div class="PLDropDown">
+								<a href="//www.ttv.com.tw/member/">會員專區</a>
+							</div>
+						</li>
+					</ul>
+
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<span class="glyphicon glyphicon-search"></span>
+						<!--<b class="caret"></b>-->
+					</a>
+					<ul class="dropdown-menu PLDropDown-menu">
+						<li>
+							<div id="google_searchbox" class="PLDropDown">
+								<input type="text" name="q" size="15" class="input-block-level" />
+								<input type="button" name="search" value=" 搜尋 " style="fint-size:12px;" class="btn btn-primary btn-sm active" role="button" />
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="/">
+						<span class="glyphicon glyphicon-home"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--/.nav-collapse -->
+	</div>
+</div>
+<!-- Google 搜尋 start -->
+<script type="text/javascript" src="/news/search/QWordsHandler_lohas.js?t=261311704"></script>
+<script type="text/javascript">InitGoogleSearchBox("google_searchbox", "/group/search/SearchElement.asp");</script>
+<script type="text/javascript" src="/include/js/seaSearch.js"></script>
+<!-- Google 搜尋 stop --> 
+     <div style="padding-top:80px;"></div>
+    <div class="container">
+        <div class="row" id="pagerow">
+            <div class="well">
+                <center>
+                    <img alt="" src="/errorlog/images/error404.png" class="img-responsive" />
+                </center>
+	        </div> <!--/well end -->
+        </div>
+    </div> <!-- /container -->
+    <div style="margin-top:1em;padding: 1em 0 1em;text-align: center;background: whitesmoke url(/group/images/shadow_top.png) center top no-repeat;">
+    <div class="container">
+            <div>臺灣電視事業股份有限公司 版權所有</div><div> &copy;2014 Taiwan Television Enterprise, Ltd. All Rights Reserved.</div>
+    </div>
+</div> <!-- /footer -->
+    
+    <script type="text/javascript">
+        $('.dropdown-menu').find('#google_searchbox').click(function (e) {
+            e.stopPropagation();
+        });        
+
+        function PageHit(pageid){
+            $.ajax({
+                type: "GET",
+                crossDomain: true,
+                url: "/AD/PageHits.asp",
+                data: { PgID: pageid},
+                cache: false
+            });
+        }
+        
+        PageHit('1012');
+    </script>    
+     
+</body>
+</html>

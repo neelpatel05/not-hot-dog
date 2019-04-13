@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE HTML PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-IN" dir="ltr">
+
+<head>
+ <!-- data-info:v:20190412_15420505;a:e38dc378-866e-45cb-9a20-4cffe9dda944;cn:2;az:{did:e676481d24d242d2bf61dbf23bf32fe6, rid: 2, sn: easia-prod-hp, dt: 2019-03-21T13:43:26.9428784Z, bt: 2019-04-12T21:34:37.5184182Z};ddpi:1;dpio:;dpi:1;dg:downlevel.pc;th:start;PageName:startPage;m:en-in;cb:;l:en-in;mu:en-in;ud:{cid:,vk:homepage,n:,l:en-in,ck:};xd:AAgg4jq;ovc:f;al:;fxd:f;xdpub:2019-04-12 03:51:50Z;xdmap:2019-04-13 02:30:58Z;axd:;f:msnallexpusers,muidflt47cf,adflt-gal1sec,muidflt53cf,muidflt57cf,muidflt298cf,pneedge1cf,platagyedge1cf,sam-gemini-spctrl;userOptOut:false;userOptOutOptions: -->
+ 
+ <link rel="canonical" href="http://www.msn.com/en-in/" />
+ 
+
+ <title>MSN India | Breaking News, Entertainment, Latest Videos, Outlook</title>
+ <meta name="description" content="MSN India offers latest national and World news, with the best of Cricket, Bollywood, Business, Lifestyle and more. Access Outlook mail, Skype and Bing search"/>
+ 
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1" />
+ <link rel="stylesheet" href="//static-global-s-msn-com.akamaized.net/hp-eas/en-in/homepage/_sc/css/b443689a-9ba8c85c/direction=ltr.locales=en-in.themes=start.dpi=resolution1x/42-b8ee35-4e3b0a9b/90-67c322-ee5f2b10/2a-1f1669-a46408a9/9b-ba6b1f-f94d3276/ab-52fe22-a648eab2/86-b413d7-63b61fa3/d1-7801d5-68ddb2ab/7a-660b57-4534563a/75-a00681-654638bf?ver=20190412_15420505&amp;fdhead=msnallexpusers,muidflt47cf,adflt-gal1sec,muidflt53cf,muidflt57cf,muidflt298cf,pneedge1cf,platagyedge1cf,sam-gemini-spctrl&amp;csopd=20190409224507&amp;csopdb=20190406000542" type="text/css" media="all" />
+ <script type="text/javascript">//<![CDATA[
+(function(n,t){function h(n,i,r){typeof n!="string"&&(r=i,i=n,n=t);i&&i.splice||(r=i,i=[]);n==it?a=!0:n==rt&&(v=!0);l(n,i,r,!1,!1)}function l(n,t,i,r,f,e){var s,y;if(!n||!c[n]){var h=ot(n,t),o=h.dependencyNotFound,l=h.resolved;if(o){typeof u[o]=="undefined"&&(u[o]=[]);u[o].push(e||{i:n,d:t,f:i,r:r,s:f});return}s=typeof i=="function";y=v&&a&&s&&!f;y?et(n,i,l,r):ft(s,n,i,l,r)}}function ft(n,t,i,r,u){var f;f=n?i.apply(null,r):i;d(t,f,u)}function et(n,t,i,r){setTimeout(function(){var u=t.apply(null,i);d(n,u,r)},1)}function d(t,i,r){r&&(i={});t&&(i?(c[t]=i,f.push(t),g()):n.console&&console.error("Dependencies resolved, but object still not defined (or is otherwise falsey). id:"+t+"; typeof obj: "+typeof i))}function g(){var t,s,h,i,o,c,r,n;if(e)e&&(e=2);else{t=[];do{for(e=1,h=f.length,i=0;i<h;i++)o=f[i],c=u[o]||[],t=t.concat(c),delete u[o];for(f=[],s=t.length,r=0;r<s;r++)n=t[r],l(n.i,n.d,n.f,n.r,n.s,n);t=[]}while(e>1);e=0}}function ot(n,t){for(var e,i=[],r,o=t?t.length:0,u=0;u<o;u++){var f=t[u],s=c[f],h=typeof s!="undefined";if(!h){if(e=st(n,f),e){i.push(e);continue}r||(r=f);break}i.push(s)}return o===i.length?{resolved:i}:{dependencyNotFound:r}}function st(i,r){var f=k.exec(r),e,u;if(f){if(e=f[1],u=n[e],u!==t)return u;s||(s=setTimeout(nt,w))}}function nt(){var i,r,e,o,h;s=0;i=!1;for(r in u)e=k.exec(r),e&&(o=e[1],h=n[o],h!==t?f.push(r):i=!0);i&&!s&&(s=setTimeout(nt,w));f.length&&g()}function ht(n,t,i){if((typeof n!="object"||n&&n.splice)&&(i=t,t=n,n={}),t&&t.splice||(i=t,t=[]),ct(n.js),i){var r,u=n.synchronous||!1;l(r,t,i,!0,u)}}function ct(n){if(typeof n=="string")tt(n);else if(n)for(var t=0;t<n.length;t++)tt(n[t])}function tt(n){if(!b[n]){b[n]=1;var i=o.getElementsByTagName("script")[0],t=o.createElement("script");t.src=n;t.onload=t.onreadystatechange=function(){this.readyState&&this.readyState!="loaded"&&this.readyState!="complete"||(t.onload=t.onreadystatechange=null,t.parentNode&&t.parentNode.removeChild(t))};i.parentNode.insertBefore(t,i)}}function lt(n){return ut?n?i.now():Math.round(i.now()):new Date-y}var it=n._jsLoaderAsyncCanary||"c.dom",rt="c.pageReveal",a=!1,v=typeof n._jsLoaderRevealMode=="undefined"?!0:n._jsLoaderRevealMode,i=n.performance,ut=i&&typeof i.now=="function",r=" ----- ",y=((i||{}).timing||{}).navigationStart||+new Date,o=n.document,p=null;try{p=n.localStorage}catch(at){}var c={date:Date,document:o,image:n.Image,localStorage:p,location:o&&o.location,navigator:navigator,pageStart:y,pageTime:lt,screen:n.screen,window:n},u={},f=[],e,w=50,s,b={},k=/^window\.(.+)$/;h.amd={jQuery:1};h.is=function(n){return typeof c[n]!="undefined"};n.define=h;n.require=ht;h.showUserMarks=function(){var n=["Mark Name"+r+"Start time in ms"];return i.getEntriesByType("mark").forEach(function(t){n.push(t.name+r+t.startTime+"ms")}),n.join("\n")};h.showUserMeasures=function(){var n=["Measure name"+r+"Start time in ms"+r+"Duration in ms"];return i.getEntriesByType("measure").forEach(function(t){n.push(t.name+r+t.startTime+"ms"+r+t.duration+"ms")}),n.join("\n")}})(window);define("navigation",["escape","location","document"],function(n,t,i){function o(t,i,r){var u=t[i],e,f;if(!u||u.length===0)return"";for(e="",f=0;f<u.length;f++)u[f]&&(e=e+r+i+"="+n.urlPart(u[f]),r==="?"&&(r="&"));return e}function u(n,t,i){var s=function(n){return n=n.replace(/\+/g," "),decodeURIComponent(n)},u={},o,e;if(n)for(n=n.split("#")[0],o=n.split("&"),e=0;e<o.length;e++){var h=o[e].split("="),r=h[0],f=h[1];i&&(r=s(r),f&&(f=s(f)));t||r==="item"?(u[r]||(u[r]=[]),u[r].push(f)):u[r]=f}return u}function f(n){var t=i.createElement("a");return t.href=n,{protocol:t.protocol,host:t.host,hostName:t.hostname,port:t.port,path:t.pathname,hash:t.hash,query:t.search,origin:t.origin}}function e(n){return f(n).hostName}var r={getUrl:function(n){return r.filter?r.filter(n):n},navigate:function(n,i){r.filter&&(n=r.filter(n));i?t.replace(n):t.href=n},getHostName:e,parseUrl:f,isLocal:function(n){var i=e(n);return!i||t.hostname==i},getParams:u,getParamsFromUrl:function(n,t,i){var r=n.split("?")[1];return u(r,t,i)},mergeQueryStringParams:function(t,i){var s,f,e,h,r,c;if(i){if(s=t.split("?"),s[1]){f=u(s[1],!1,!0);for(r in i)f[r]=i[r]}else f=i;t=s[0];e="?";h="item";for(r in f)r!==h&&(t+=f[r]?e+n.urlPart(r)+"="+n.urlPart(f[r]):e+n.urlPart(r),e==="?"&&(e="&"));c=o(f,h,e);t=t+c}return t},filter:null};return r});define("logging",["window"],function(n){function r(n,t){if(n.addEventListener)n.addEventListener("error",t,!1);else if(n.onerror){var i=n.onerror;n.onerror=function(n,r,u,f,e){return i(n,r,u,f,e),t(n,r,u,f,e)}}else n.onerror=t}function t(t){n.console&&(console.error||console.log)(t)}function u(){}function f(){}function e(t){(n.console||{}).timeStamp?console.timeStamp(t):(n.performance||{}).mark&&n.performance.mark(t)}var i=0;return r(n,function(n){return i++,n&&t("[SCRIPTERROR] "+n),!0}),{error:t,fatalError:t,unhandledErrorCount:function(){return i},perfMark:e,warning:u,information:f}})//]]></script><script type="text/javascript" src="//static-global-s-msn-com.akamaized.net/hp-eas/_h/4c59fa2c/webcore/externalscripts/jquery/jquery-1.11.1.min.js"></script>
+ 
+ <style>@media screen and (max-width:78.99em) and (min-width:58.875em){.layout-none:not(.mod1) .pos2{left:0}}.ie8 .grid .pick4~li.pick{display:none}.todaystripe .todayshowcasead:hover{opacity:1}.spartan #main .paging-container.snap{overflow-x:hidden}#addRemoveSectionsModalContainer #addRemoveSectionsModal{display:block}.tmx.mobile .superbowl .matchupstripe{margin:0 auto}.stripecontainer .stripeouter.noborder{height:33.7rem}html[dir='rtl'] .ie8 .mip>ul>li.triptych h3+a{border-right:0}html[dir='ltr'] .ie8 .mip>ul>li.triptych h3+a{border-left:0}.meflyouts .integratedskype .signin>ul li:first-child{display:none}.tmx.pc.webkit.chrome .stripecontent ul{overflow-x:hidden}.meflyouts .bingrewards{display:none}.mobile .galleryinfo .img-divider{display:none}.homepage.tmx.pc.chrome #main .one-col,.homepage.tmx.pc.chrome #main .two-col,.homepage.tmx.pc.chrome #main .three-col{margin-right:-.016rem;margin-left:-.016rem}.homepage.midlevel .pagingsection>button.show,.channelplayerpage.midlevel .pagingsection>button.show{display:none}.settings.start.tmx.pc .globalsettings .social.twitter{display:none}</style>
+</head>
+
+<body class="startpage sp center-content start">
+ 
+
+
+<div class="head">
+<div>
+<div id="topnav">
+ <ul class="verticalsnav">
+ <li  class="current">
+<a href="/en-in">Home</a>
+</li>
+ <li >
+<a href="/en-in/news">News</a>
+</li>
+ <li >
+<a href="/en-in/weather">Weather</a>
+</li>
+ <li >
+<a href="/en-in/entertainment">Entertainment</a>
+</li>
+ <li >
+<a href="/en-in/sports">Sports</a>
+</li>
+ <li >
+<a href="/en-in/money">Money</a>
+</li>
+
+ <li class="more">
+<a href="#nav">More ></a>
+<ul>
+ <li >
+<a href="/en-in/lifestyle">Lifestyle</a>
+</li>
+ <li >
+<a href="/en-in/health">Health</a>
+</li>
+ <li >
+<a href="/en-in/foodanddrink">Food</a>
+</li>
+ <li >
+<a href="/en-in/travel">Travel</a>
+</li>
+ <li >
+<a href="/en-in/autos">Autos</a>
+</li>
+ <li >
+<a href="/en-in/video/browse/newest">Video</a>
+</li>
+ </ul>
+</li>
+ </ul>
+</div>
+  <div id="header-common">
+<div class="header">
+<div class="header-logo">
+  <a class="logo" href="/en-in" tabindex="2">
+ 
+
+<img alt="" height="20" width="20" src="//static-global-s-msn-com.akamaized.net/hp-eas/sc/82/c22c7d.gif" />
+</a>
+ <a class="vertical" href="/en-in" tabindex="2">msn</a>
+
+
+
+</div>
+<div id="header-links">
+ <a href="http://www.outlook.com/">Outlook.com</a>
+ <span>|</span>
+ <a href="/en-in/settings/markettoggle"><img alt="en-in" src="//static-global-s-msn-com.akamaized.net/hp-eas/sc/6a/a62410.gif" /></a>
+
+<a class="navigation" href="#nav">
+<img  alt="go to navigation" width="27" height="20" src="//static-global-s-msn-com.akamaized.net/hp-eas/sc/57/a49b8d.gif" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+ 
+<div id="header-search">
+<form action="http://www.bing.com/search?scope=web" method="get" id="srchfrm">
+<div class="searchbox">
+<input type="text" id="q" name="q" value="" />
+<input type="hidden" name="form" value="PRINDL" />
+  <input type="hidden" name="httpsmsn" value="1">
+   <input type="hidden" name="refig" value="e38dc378866e45cb9a204cffe9dda944">
+<input type="submit" class="text" value="web search" title="web search"/>
+ </div>
+</form>
+</div>
+
+</div>
+ 
+ 
+<div class="upgradebrowser">
+ You are using an older browser version. Please use a <a href="http://support2.microsoft.com/kb/2999871/en-in">supported version</a> for the best MSN experience.
+</div>
+
+
+
+</div>
+<div id="maincontent">
+ 
+<div id="main"  data-region="main">
+ 
+
+ 
+ <div class="today">
+
+
+	<div class="weatodaytile"  data-module-id="startpage|todayDownlevel|section|DownlevelMiniWeather|WeatherTodayTileModule"   data-aop="todayweathersd_weathertodaythreedaystilemodule">
+<a  href="/en-in/weather/today/Vadodara,Gujarat,India/we-city?iso=IN&amp;el=DF0RSgYBCuqkWaua5g5w9g%3D%3D" data-loc="lat=22.30&amp;long=73.20&amp;c=Vadodara&amp;st=Gujarat&amp;cn=India&amp;iso=IN&amp;type=1">
+<div class="weatileleft">
+<img class="skycond" src="//img-s-msn-com.akamaized.net/tenant/amp/entityid/BB8Mppu.img?m=6&amp;o=true&amp;u=true&amp;n=true&amp;w=40&amp;h=40"
+
+data-src="{&quot;default&quot;:&quot;//img-s-msn-com.akamaized.net/tenant/amp/entityid/BB8Mppu.img?m=6&amp;o=true&amp;u=true&amp;n=true&amp;w=40&amp;h=40&quot;}"
+alt="Haze" title="Haze" data-icon="12" />
+	<div><span class="currentcond">26&#176;</span><span class="tempunit">C</span></div>
+</div>
+<div class="weatileright">
+<span class="weacity">Vadodara, Gujarat</span>
+<span class="skytext">Today, Haze</span>
+<span class="tempavghigh">High 41&#176;</span>
+<span class="tempavglow">Low 26&#176;</span>
+</div>
+	</a>
+
+ <div class="edit"  data-aop="change">
+<a class="edithome" href="#" aria-label="Change location or temperature unit" data-degreetype="C" 
+data-home="Search for Location / City" title="Change">Change</a>
+</div>
+<div class="weapopup" role="dialog" aria-labelledby="weaaddlocation-label"  data-aop="editweatherflyout"  data-region="editweatherflyout">
+<div class="weaddn wpopbg"></div>
+<div class="weaddn wpopctn">
+<a class="close"  role="button" href="#" title="Close">Close</a>
+ 
+
+<div class="weaaddlocation">
+
+<form  action="/en-in/weather/search" data-action="/en-in/weather/ajax/places/search/" method="get" >
+ 
+<p class="label" id="weaaddlocation-label">Set Default Location</p>
+<div class="add-loc-as-container">
+<input name="q" class="query" accesskey="L" autocomplete="off" type="search" aria-autocomplete="list"
+value="" maxlength="250" data-auto-suggest-settings='{&quot;market&quot;:&quot;en-in&quot;,&quot;mode&quot;:&quot;AS&quot;,&quot;baseurl&quot;:&quot;/en-in/weather/today&quot;,&quot;action&quot;:&quot;sethome&quot;,&quot;method&quot;:&quot;custom&quot;,&quot;selector&quot;:&quot;.weaaddlocation&quot;,&quot;urltype&quot;:&quot;GeoLocation&quot;,&quot;formcode&quot;:&quot;&quot;,&quot;lat&quot;:22.2973,&quot;lon&quot;:73.1964}'
+                   placeholder="Search for Location / City" data-seemoretext="Press &lt;Enter&gt; to see more" data-autosuggestdelay="100"
+                   aria-label="Search for Location / City"  />
+<button type="submit" title ="Search" class="searchbtn" 
+  aria-label="search">
+<span class="x-screen-reader">Search</span>               
+            </button>
+        </div>
+        <div class="nolocerr" aria-live="assertive" data-message="No search results for &#39;{0}&#39;"></div>
+<div class="errmsg" aria-hidden="true" data-error-in-service-message="An unexpected error occurred, please try again."></div>
+<div class="suggestmsg"></div>
+<div class="autosuggestresults" ></div>
+ 
+</form>
+</div>
+
+ 
+
+
+<div  role="radiogroup">
+<p>Display Temperature In</p>
+<form id="ideb51ab437f104ac48a704b0e1f6d33f5" class="setdegree"  action="/en-in/weather/ajax/places/savedegree/" method="post">
+ 
+<div>
+<button name="weaDegreeType" id="ideb51ab437f104ac48a704b0e1f6d33f5_fahrenheit" value="F"
+                        class=""
+ role="radio"
+ >
+<span class="dot"></span>
+</button>
+<label for="ideb51ab437f104ac48a704b0e1f6d33f5_fahrenheit" form="ideb51ab437f104ac48a704b0e1f6d33f5">Fahrenheit</label>
+            </div>
+            <div>
+                <button name="weaDegreeType" id="ideb51ab437f104ac48a704b0e1f6d33f5_celsius" value="C"
+                        class="selected"
+ role="radio"
+ >
+<span class="dot"></span>
+</button>
+<label for="ideb51ab437f104ac48a704b0e1f6d33f5_celsius" form="ideb51ab437f104ac48a704b0e1f6d33f5">Celsius</label>
+</div>
+ 
+</form>
+</div>
+
+<button  class="donebutton disabled" disabled="disabled" title="Done">Done</button>
+</div>
+</div>
+	</div>
+ </div>
+ <div class="stripe first">
+<h2>Today</h2>    <a href="/en-in/money/news/vijay-mallya-suffers-another-legal-setback-fails-to-delay-dollar40-million-diageo-claim/ar-BBVT0jD?li=AAggbRN" >
+<img alt="" height="194" src="//static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBVThVp.img?h=194&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=2035&amp;y=1008" title="Vijay Mallya arrives at Westminster Magistrates Court to face an extradition req... - Reuters" width="300" />
+    </a>
+ <ul>
+ <li  class="first">
+     <a href="/en-in/money/news/vijay-mallya-suffers-another-legal-setback-fails-to-delay-dollar40-million-diageo-claim/ar-BBVT0jD?li=AAggbRN" >
+
+Mallya suffers another setback    </a>
+
+</li>
+ <li >
+     <a href="/en-in/sports/cricket/ipl-2019-50-per-cent-match-fee-fine-is-kid-gloving-ms-dhoni-says-bishan-bedi/ar-BBVThWL?li=AAggbRN" >
+
+Ex-India captain slams MS Dhoni    </a>
+
+</li>
+ <li >
+     <a href="/en-in/news/newsindia/you-wont-let-country-live-in-peace-sc-junks-plea-to-hold-puja-at-ayodhya/ar-BBVTy3F?li=AAggbRN" >
+
+‘You won’t let India live in peace’    </a>
+
+</li>
+ <li >
+     <a href="/en-in/sports/cricket/india-might-select-kl-rahul-for-no4-in-world-cup-based-on-ipl-form-sunil-gavaskar/ar-BBVTtqc?li=AAggbRN" >
+
+Gavaskar on India&#39;s No. 4    </a>
+
+</li>
+ <li >
+     <a href="/en-in/entertainment/bollywood/amitabh-bachchan-pays-rs-70-crore-tax/ar-BBVSK1x?li=AAggbRN" >
+
+Big B pays hefty amount as tax    </a>
+
+</li>
+ </ul>
+
+</div>
+ <div class="stripe">
+<h2>Today on MSN</h2>    <a href="/en-in/entertainment/bollywood/then-and-now-bollywood-actresses-and-their-unbelievable-transformations/ss-BBTN9Vo?li=CCqKrn"                                                 target="_blank"
+>
+<img alt="Shilpa Shetty" height="194" src="//static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBTN5hk.img?h=194&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=320&amp;y=109" title="Shilpa Shetty" width="300" />
+    </a>
+ <ul>
+ <li  class="first">
+     <a href="/en-in/entertainment/bollywood/then-and-now-bollywood-actresses-and-their-unbelievable-transformations/ss-BBTN9Vo?li=CCqKrn"                                                 target="_blank"
+>
+
+Bollywood actresses and their unbelievable transformations    </a>
+
+</li>
+ <li >
+     <a href="/en-in/news/world/you-dont-have-to-like-julian-assange-to-defend-him/ar-BBVSWs2?li=CCqKrn" >
+
+Opinion: You don’t have to like Assange to defend him    </a>
+
+</li>
+ <li >
+     <a href="/en-in/foodanddrink/foodnews/fasting-and-feasting/ar-BBVPDsx?li=CCqKrn" >
+
+Fasting and feasting    </a>
+
+</li>
+ <li >
+     <a href="/en-in/news/photos/the-14th-dalai-lama-a-life-in-pictures/ss-BBVRta1?li=CCqKrn" >
+
+Dalai Lama: A life in pictures    </a>
+
+</li>
+ <li >
+     <a href="https://www.msn.com/hi-in/news/india/%e0%a4%aa%e0%a4%b8%e0%a5%80%e0%a4%a8%e0%a4%be-%e0%a4%aa%e0%a5%8b%e0%a4%82%e0%a4%9b%e0%a4%a4%e0%a5%87-%e0%a4%b0%e0%a4%be%e0%a4%9c%e0%a4%a8%e0%a4%be%e0%a4%a5-%e0%a4%95%e0%a5%8b-%e0%a4%aa%e0%a4%be%e0%a4%b8%e0%a4%b5%e0%a4%be%e0%a4%a8-%e0%a4%a8%e0%a5%87-%e0%a4%ac%e0%a4%a4%e0%a4%be%e0%a4%af%e0%a4%be-%e0%a4%b5%e0%a4%be%e0%a4%9c%e0%a4%aa%e0%a5%87%e0%a4%af%e0%a5%80-%e0%a4%95%e0%a5%80-%e0%a4%b5%e0%a4%9c%e0%a4%b9-%e0%a4%b8%e0%a5%87-%e0%a4%97%e0%a4%b0%e0%a5%8d%e0%a4%ae%e0%a4%bf%e0%a4%af%e0%a5%8b%e0%a4%82-%e0%a4%ae%e0%a5%87%e0%a4%82-%e0%a4%b9%e0%a5%8b%e0%a4%a4%e0%a5%87-%e0%a4%b9%e0%a5%88%e0%a4%82-%e0%a4%9a%e0%a5%81%e0%a4%a8%e0%a4%be%e0%a4%b5/ar-BBVRwwW?ocid=most-popular"                                                 target="_blank"
+ data-pg="001" data-pid="7HD66FC">
+
+                <span  class="nativead">MSN हिन्दी: </span>
+वाजपेयी की वजह से गर्मियों में होते हैं चुनाव?                <img  class="nativead"
+                      />
+    </a>
+
+</li>
+ </ul>
+
+</div>
+ <div class="stripe">
+<h2><a href="/en-in/news" >News</a></h2>    <a href="/en-in/news/newsindia/must-remove-modi-shah-for-well-being-of-country-raj-thackeray/ar-BBVT08b?li=AAgges1" >
+<img alt="Must remove Modi, Shah for well-being of country: Raj Thackeray" height="194" src="//static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBVTchI.img?h=194&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=462&amp;y=213" title="Must remove Modi, Shah for well-being of country: Raj Thackeray - Provided by IE Online Media Services Pvt Ltd" width="300" />
+    </a>
+ <ul>
+ <li  class="first">
+     <a href="/en-in/news/newsindia/must-remove-modi-shah-for-well-being-of-country-raj-thackeray/ar-BBVT08b?li=AAgges1" >
+
+&#39;Must remove Modi, Shah for well-being of country&#39;    </a>
+
+</li>
+ <li >
+     <a href="/en-in/news/other/congress-spoofs-kyunki-smriti-irani-hits-back-in-row-over-degree/vi-BBVS3Jt" >
+
+Congress spoofs &quot;Kyunki...&quot;, Smriti Irani hits back in row over degree    </a>
+
+</li>
+ <li >
+     <a href="/en-in/news/newsindia/areeb-majeed-case-court-issues-summons-to-nodal-officers-of-5-telecom-firms-for-call-records/ar-BBVTirj?li=AAgges1" >
+
+Areeb Majeed case: Court summons nodal officers for call records    </a>
+
+</li>
+ <li >
+     <a href="/en-in/news/newsindia/we-didnt-write-to-president-former-army-and-air-force-chief-add-fresh-twist-to-letter-row/ar-BBVRJYD?li=AAgges1" >
+
+Letter to President row: New update    </a>
+
+</li>
+ <li >
+     <a href="/en-in/news/south-india/we-cant-allow-any-attack-on-our-traditions-pm-in-kerala/ar-BBVT8Fg?li=AAgges1" >
+
+We can’t allow any attack on our traditions: PM in Kerala    </a>
+
+</li>
+ </ul>
+
+</div>
+ <div class="stripe">
+<h2><a href="/en-in/entertainment" >Entertainment</a></h2>    <a href="/en-in/entertainment/bollywood/anjali-hooda-randeep-hoodas-sisters-journey-from-fat-to-fit/ss-BBNufkZ?li=AA5a2m" >
+<img alt="Anjali Hooda Sangwan also believes in the power of preventive medicine and her p..." height="194" src="//static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBNu9W4.img?h=194&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=284&amp;y=181" title="Anjali Hooda Sangwan also believes in the power of preventive medicine and her p... - Provided by Jagran Prakashan Ltd." width="300" />
+    </a>
+ <ul>
+ <li  class="first">
+     <a href="/en-in/entertainment/bollywood/anjali-hooda-randeep-hoodas-sisters-journey-from-fat-to-fit/ss-BBNufkZ?li=AA5a2m" >
+
+Randeep Hooda&#39;s sister&#39;s amazing journey from fat to fit    </a>
+
+</li>
+ <li >
+     <a href="/en-in/entertainment/bollywood/student-of-the-year-2-trailer-launch-tiger-ananya-tara-and-karan-in-attendance/ss-BBVSgeU?li=AA5a2m" >
+
+All the pictures from Student of the Year 2 trailer launch    </a>
+
+</li>
+ <li >
+     <a href="/en-in/entertainment/story/tanushri-duttas-sister-ishita-dutta-gets-angry-on-media-reporter-stupid-question-on-tanushri-mee2/vi-BBVSkAM" >
+
+Tanushri Dutta&#39;s sister Ishita gets angry on reporter    </a>
+
+</li>
+ <li >
+     <a href="/en-in/entertainment/bollywood/anurag-kashyap-gets-a-vote-for-modi-message-on-whatsapp-heres-how-he-reacted/ar-BBVRtpn?li=AA5a2m" >
+
+Anurag Kashyap gets a &#39;vote for Modi&#39; message, here&#39;s how he reacted    </a>
+
+</li>
+ <li >
+     <a href="/en-in/entertainment/bollywood/malaika-arora-leaves-a-cryptic-message-about-soulmate-could-it-be-about-arjun-kapoor/ar-BBVRvcM?li=AA5a2m" >
+
+Malaika&#39;s cryptic post on &#39;soulmate&#39; hinting at Arjun?    </a>
+
+</li>
+ </ul>
+
+</div>
+ <div class="stripe">
+<h2><a href="/en-in/news/photos" >Photos</a></h2>    <a href="/en-in/entertainment/bollywood/20-behind-the-scene-candid-pictures-from-bollywood-films-that-tell-a-different-story/ss-AApp2uD?li=BBAgStz"                                                 target="_blank"
+>
+<img alt="" height="194" src="//static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/AApoPEr.img?h=194&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" title="Behind the scenes - Movietalkies" width="300" />
+    </a>
+ <ul>
+ <li  class="first">
+     <a href="/en-in/entertainment/bollywood/20-behind-the-scene-candid-pictures-from-bollywood-films-that-tell-a-different-story/ss-AApp2uD?li=BBAgStz"                                                 target="_blank"
+>
+
+Behind-the-scene pics from Bollywood films    </a>
+
+</li>
+ <li >
+     <a href="/en-in/entertainment/bollywood/bandra-spotted-kiara-advanis-camouflage-outfit-is-too-cool-to-handle/ss-BBVRBBL?li=BBAgStz" >
+
+Kiara Advani&#39;s camouflage outfit is too cool to handle    </a>
+
+</li>
+ <li >
+     <a href="/en-in/entertainment/bollywood/deepika-padukone-shoots-for-chhapaak-in-new-delhi/ss-BBVPwIC?li=BBAgStz" >
+
+From the set of Deepika Padukone&#39;s Chhapaak    </a>
+
+</li>
+ <li >
+     <a href="/en-in/money/photos/15-managers-reveal-the-interview-red-flags-that-keep-them-from-hiring-someone/ss-AAAbjzi?li=BBAgStz" >
+
+Managers reveal interview mistakes    </a>
+
+</li>
+ <li >
+     <a href="/en-in/health/medical/what-a-pain-in-your-side-could-mean/ss-BBUwNcb?li=BBAgStz" >
+
+What a pain in your side could mean    </a>
+
+</li>
+ </ul>
+
+</div>
+ <div class="stripe">
+<h2><a href="/en-in/video/browse/newest" >Video</a></h2>    <a href="/en-in/video/entertainment/madhuri-dixit-soon-to-come-up-with-an-english-pop-album/vi-BBVQG4Q" >
+<img alt="" height="194" src="//static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBVRhpf.img?h=194&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=244&amp;y=258" title="madhuri" width="300" />
+    </a>
+ <ul>
+ <li  class="first">
+     <a href="/en-in/video/entertainment/madhuri-dixit-soon-to-come-up-with-an-english-pop-album/vi-BBVQG4Q" >
+
+Madhuri to come up with an English pop album    </a>
+
+</li>
+ <li >
+     <a href="/en-in/video/autos/2019-porsche-911-first-look/vi-BBVQPkj" >
+
+2019 Porsche 911 first look    </a>
+
+</li>
+ <li >
+     <a href="/en-in/video/entertainment/malaika-arora-and-arjun-kapoor-twin-in-blue-at-a-party/vi-BBVPFxA" >
+
+Malaika and Arjun twin in blue at a party    </a>
+
+</li>
+ <li >
+     <a href="/en-in/video/technology/airpods-2-offer-faster-connectivity-better-battery-life/vi-BBVQjs6" >
+
+AirPods 2 offer faster connectivity, better battery life    </a>
+
+</li>
+ <li >
+     <a href="/en-in/video/foodanddrink/cucumbers-101-how-to-buy-store-and-cook-with-them/vi-BBVRoO0" >
+
+Cucumbers 101: How to buy, store, and cook with them    </a>
+
+</li>
+ </ul>
+
+</div>
+ <div class="stripe">
+<h2><a href="/en-in/sports" >Sports</a></h2>    <a href="/en-in/sports/cricket/inzamam-ul-haq-mark-boucher-elected-as-mcc-honorary-life-members/ar-BBVSc3v?li=AAggjDC" >
+<img alt="" height="194" src="//static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBVSSA1.img?h=194&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=1019&amp;y=336" title="Cricket - Liverpool Victoria County Championship - Division One - Yorkshire v Wa... - Getty" width="300" />
+    </a>
+ <ul>
+ <li  class="first">
+     <a href="/en-in/sports/cricket/inzamam-ul-haq-mark-boucher-elected-as-mcc-honorary-life-members/ar-BBVSc3v?li=AAggjDC" >
+
+Inzamam-ul-Haq, Mark Boucher elected as MCC Honorary Life Members    </a>
+
+</li>
+ <li >
+     <a href="/en-in/sports/sport-index/sindhu-enters-singapore-open-semi-finals-saina-crashes-out/ar-BBVS7aO?li=AAggjDC" >
+
+Sindhu enters Singapore Open semi-finals, Saina crashes out    </a>
+
+</li>
+ <li >
+     <a href="/en-in/sports/cricket/ipl-2019-clearly-out-of-line-former-cricketers-react-to-ms-dhonis-confrontation-with-umpires/ar-BBVRE4f?li=AAggjDC" >
+
+Ex-cricketers slam MS Dhoni    </a>
+
+</li>
+ <li >
+     <a href="/en-in/sports/cricket/ravindra-jadeja-1st-of-his-kind-to-100-ipl-wickets-but-also-the-slowest/ar-BBVRNus?li=AAggjDC" >
+
+Jadeja makes IPL history in Jaipur    </a>
+
+</li>
+ <li >
+     <a href="/en-in/sports/cricket/talking-points-what-was-ms-dhoni-thinking/ar-BBVQvl3?li=AAggjDC" >
+
+What was MS Dhoni thinking?    </a>
+
+</li>
+ </ul>
+
+</div>
+ <div class="stripe">
+<h2><a href="/en-in/money" >Money</a></h2>    <a href="/en-in/money/news/as-jet-airways-issue-deepens-pmo-calls-urgent-meeting-to-discuss-situation/ar-BBVSw5W?li=AAgfW3S"                                                 target="_blank"
+>
+<img alt="" height="194" src="//static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBVSFSB.img?h=194&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=2106&amp;y=1163" title="A Jet Airways plane is parked as other moves to runway at the Chhatrapati Shivaj... - Reuters" width="300" />
+    </a>
+ <ul>
+ <li  class="first">
+     <a href="/en-in/money/news/as-jet-airways-issue-deepens-pmo-calls-urgent-meeting-to-discuss-situation/ar-BBVSw5W?li=AAgfW3S"                                                 target="_blank"
+>
+
+Jet crisis: PMO calls urgent meet    </a>
+
+</li>
+ <li >
+     <a href="/en-in/money/news/pubg-banned-in-nepal-over-violence-addiction/ar-BBVS5BL?li=AAgfW3S" >
+
+PUBG banned in Nepal over violence, addiction    </a>
+
+</li>
+ <li >
+     <a href="/en-in/money/gadgets/mukesh-ambanis-reliance-jio-takes-on-apple-news-plus-with-jio-news-app/ar-BBVRm4V?li=AAgfW3S" >
+
+Reliance Jio launches new app    </a>
+
+</li>
+ <li >
+     <a href="/en-in/money/news/manmohan-singh-vs-narendra-modi-the-real-india-growth-story/ar-BBVRmer?li=AAgfW3S" >
+
+Manmohan vs Narendra Modi: The real India growth story    </a>
+
+</li>
+ <li >
+     <a href="/en-in/money/news/denial-rates-for-h-1b-visa-petitions-climbing-up-to-32percent-for-2019-first-quarter/ar-BBVRbKn?li=AAgfW3S" >
+
+H-1B visa: Setback for Indians    </a>
+
+</li>
+ </ul>
+
+</div>
+ <div class="stripe">
+<h2><a href="/en-in/lifestyle" >Lifestyle</a></h2>    <a href="/en-in/lifestyle/smart-living/this-is-where-the-names-of-the-months-come-from/ss-BBU5Si2?li=AAvxqQB" >
+<img alt="The names for the 12 months of the year are some of the first words you learn..." height="194" src="//static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBU4jsU.img?h=194&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=1074&amp;y=254" title="This Is Where the Names of the Months Come From - Provided by Best Life" width="300" />
+    </a>
+ <ul>
+ <li  class="first">
+     <a href="/en-in/lifestyle/smart-living/this-is-where-the-names-of-the-months-come-from/ss-BBU5Si2?li=AAvxqQB" >
+
+This is where the names of the months come from    </a>
+
+</li>
+ <li >
+     <a href="/en-in/video/lifestyle/adah-sharma-wears-quirky-red-saree-with-white-sneakers-pictures-go-viral/vi-BBVPlhu" >
+
+Adah Sharma wears quirky red saree with white sneakers    </a>
+
+</li>
+ <li >
+     <a href="/en-in/travel/tripideas/in-photos-natgeo-picks-the-best-destinations-for-city-nature-culture-and-adventure-travel-2019/ss-BBQpIze?li=AAvxqQB" >
+
+NatGeo&#39; best destinations for city, nature, culture &amp; adventure travel    </a>
+
+</li>
+ <li >
+     <a href="/en-in/lifestyle/style/take-inspiration-from-hrithik-roshan-akshay-kumar-kartik-aryan-to-level-up-your-work-wear/ar-BBVNfNx?li=AAvxqQB" >
+
+Take inspiration from Hrithik, Akshay, Kartik to level-up your work wear    </a>
+
+</li>
+ <li >
+     <a href="/en-in/lifestyle/horoscope/zodiac-signs-who-are-always-loyal-per-astrology/ar-BBVPWTf?li=AAvxqQB" >
+
+Most loyal  zodiac signs    </a>
+
+</li>
+ </ul>
+
+</div>
+ <div class="stripe">
+<h2><a href="/en-in/health" >Health &amp; Food</a></h2>    <a href="/en-in/health/nutrition/intuitive-eating-is-the-smart-way-to-eat-better-without-dieting/ar-BBUymxy?li=BBPGFFn" >
+<img alt="Good Housekeeping" height="194" src="//static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBUwmGM.img?h=194&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f" title="Good Housekeeping - Good Housekeeping" width="300" />
+    </a>
+ <ul>
+ <li  class="first">
+     <a href="/en-in/health/nutrition/intuitive-eating-is-the-smart-way-to-eat-better-without-dieting/ar-BBUymxy?li=BBPGFFn" >
+
+Everything you need to know about intuitive eating    </a>
+
+</li>
+ <li >
+     <a href="/en-in/video/foodanddrink/celebrate-taco-tuesday-with-these-killer-chicken-tacos/vi-BBVuzcR" >
+
+Here&#39;s an easy recipe of chicken tacos    </a>
+
+</li>
+ <li >
+     <a href="/en-in/health/fitness/meet-the-woman-who-went-from-a-size-24-to-a-12-in-less-than-a-year/ar-BBUZR7a?li=BBPGFFn" >
+
+This woman went from a size 24 to a 12 in less than a year    </a>
+
+</li>
+ <li >
+     <a href="/en-in/health/healthfitnessfanatic/lose-weight-quickly-by-adding-these-healthy-seeds-to-your-diet/ar-BBUWU37?li=BBPGFFn" >
+
+Quick weight-loss: Add these seeds to your diet    </a>
+
+</li>
+ <li >
+     <a href="/en-in/health/medical/anti-vaxx-are-these-diseases-making-a-comeback/ss-BBVRyBn?li=BBPGFFn" >
+
+Anti-vaxx: Are these diseases making a comeback?    </a>
+
+</li>
+ </ul>
+
+</div>
+ <div class="stripe">
+<h2><a href="/en-in/autos" >Autos</a></h2>    <a href="/en-in/autos/news/the-ssangyong-korando-looks-surprisingly-normal/ar-BBVMan8?li=AAgg6KI"                                                 target="_blank"
+>
+<img alt="SsangYong Korando 05" height="194" src="//static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBVM5KC.img?h=194&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=1360&amp;y=906" title="SsangYong Korando 05 - Motor Trend Staff" width="300" />
+    </a>
+ <ul>
+ <li  class="first">
+     <a href="/en-in/autos/news/the-ssangyong-korando-looks-surprisingly-normal/ar-BBVMan8?li=AAgg6KI"                                                 target="_blank"
+>
+
+SsangYong Korando looks surprisingly normal    </a>
+
+</li>
+ <li >
+     <a href="/en-in/autos/autosmotorbikes/upcoming-harley-davidson-v-twin-engine-revealed-in-patent/ar-BBVRoBw?li=AAgg6KI" >
+
+Harley-Davidson V-Twin engine revealed in patent    </a>
+
+</li>
+ <li >
+     <a href="/en-in/autos/news/delhis-new-plan-to-curb-excessive-honking-hands-off-the-horn-campaign-tests-acoustic-cameras/ar-BBVPyyw?li=AAgg6KI" >
+
+Delhi&#39;s new plan to curb excessive honking    </a>
+
+</li>
+ <li >
+     <a href="/en-in/autos/news/volkswagen-group-to-merge-all-its-indian-subsidiaries-skoda-to-lead-charge/ar-BBVB7SA?li=AAgg6KI" >
+
+Volkswagen to merge all its Indian subsidiaries    </a>
+
+</li>
+ <li >
+     <a href="/en-in/autos/news/first-retrofitted-ev-in-india-registered-at-telangana-rto/ar-BBVRbIL?li=AAgg6KI" >
+
+First retrofitted EV in India registered at Telangana    </a>
+
+</li>
+ </ul>
+
+</div>
+ <div class="stripe">
+<h2><a href="/en-in/lifestyle/shopping?ocid=hp-ss" >SHOPPING</a></h2>    <a href="https://www.amazon.in/b?node=16289582031&amp;tag=enin-prime-hp-shoppingstripe-21"                                                 target="_blank"
+ data-pg="TSTPRNUS32" data-pid="7HD66FC">
+<img alt="" height="194" src="//static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBVRZYi.img?h=194&amp;w=300&amp;m=6&amp;q=60&amp;u=t&amp;o=t&amp;l=f&amp;x=272&amp;y=233" title="phone fest (2)" width="300" />
+    </a>
+ <ul>
+ <li  class="first">
+     <a href="https://www.amazon.in/b?node=16289582031&amp;tag=enin-prime-hp-shoppingstripe-21"                                                 target="_blank"
+ data-pg="TSTPRNUS32" data-pid="7HD66FC">
+
+                <span  class="nativead">Sponsored: </span>
+Fab Phone Fest: Up to 40% off | 10% instatnt discount on HDFC                <img  class="nativead"
+                      />
+    </a>
+
+</li>
+ <li >
+     <a href="https://www.amazon.in/b?node=16403750031&amp;tag=enin-prime-hp-shoppingstripe-21"                                                 target="_blank"
+ data-pg="TSTPRNUS32" data-pid="7HD66FC">
+
+                <span  class="nativead">Sponsored: </span>
+Watch-out Sale: Best seller | Top Brands                <img  class="nativead"
+                      />
+    </a>
+
+</li>
+ <li >
+     <a href="https://www.amazon.in/b?node=1380045031&amp;tag=enin-prime-hp-shoppingstripe-21"                                                 target="_blank"
+ data-pg="TSTPRNUS32" data-pid="7HD66FC">
+
+                <span  class="nativead">Sponsored: </span>
+Kitchen apppliances: Up to 50% off                <img  class="nativead"
+                      />
+    </a>
+
+</li>
+ <li >
+     <a href="https://www.amazon.in/gp/bestsellers/kitchen?tag=enin-prime-hp-shoppingstripe-21"                                                 target="_blank"
+ data-pg="TSTPRNUS32" data-pid="7HD66FC">
+
+                <span  class="nativead">Sponsored: </span>
+Bestseller in Home &amp; Kitchen: Shop Now                <img  class="nativead"
+                      />
+    </a>
+
+</li>
+ <li >
+     <a href="https://www.amazon.in/b?node=1968256031&amp;tag=enin-prime-hp-shoppingstripe-21"                                                 target="_blank"
+ data-pg="TSTPRNUS32" data-pid="7HD66FC">
+
+                <span  class="nativead">Sponsored: </span>
+Saree Store: Up to 80% off | Cotton | Silk | Chiffon                <img  class="nativead"
+                      />
+    </a>
+
+</li>
+ </ul>
+
+</div>
+
+ 
+</div>
+<div id="aside"  data-region="aside">
+ 
+</div>
+<div id="nav">
+ <ul class="verticalsnav">
+ <li  class="current">
+<a href="/en-in">Home</a>
+</li>
+ <li >
+<a href="/en-in/news">News</a>
+</li>
+ <li >
+<a href="/en-in/weather">Weather</a>
+</li>
+ <li >
+<a href="/en-in/entertainment">Entertainment</a>
+</li>
+ <li >
+<a href="/en-in/sports">Sports</a>
+</li>
+ <li >
+<a href="/en-in/money">Money</a>
+</li>
+ <li >
+<a href="/en-in/lifestyle">Lifestyle</a>
+</li>
+ <li >
+<a href="/en-in/health">Health</a>
+</li>
+ <li >
+<a href="/en-in/foodanddrink">Food</a>
+</li>
+ <li >
+<a href="/en-in/travel">Travel</a>
+</li>
+ <li >
+<a href="/en-in/autos">Autos</a>
+</li>
+ <li >
+<a href="/en-in/video/browse/newest">Video</a>
+</li>
+ </ul>
+</div>
+ </div>
+<div id="foot">
+<div> <a href="https://www.microsoft.com/en-in/">&#169; 2019 Microsoft</a>
+ <a href="https://go.microsoft.com/fwlink/?LinkId=74170">Privacy &amp; Cookies</a>
+ <a href="https://go.microsoft.com/fwlink/?LinkID=246338">Terms of use</a>
+ <a href="https://go.microsoft.com/fwlink/?LinkID=286759">About our Ads</a>
+ <a href="https://jfe.qualtrics.com/form/SV_d4ir2X6Zkgjw0rb">Feedback</a>
+ <a href="https://go.microsoft.com/fwlink/?LinkId=512703">Help</a>
+ <a href="/en-in/msn-worldwide">MSN Worldwide</a>
+ <a href="https://go.microsoft.com/fwlink/?linkid=875132">Advertise</a>
+</div>
+</div>
+  <div>
+ <img src="//c.msn.com/c.gif?udc=true&amp;rid=e38dc378866e45cb9a204cffe9dda944&amp;rnd=636907195288562065&amp;rf=&amp;tp=http%253A%252F%252Fwww.msn.com%252Fen-in%252F&amp;di=9&amp;lng=en-in&amp;activityId=e38dc378866e45cb9a204cffe9dda944&amp;d.dgk=downlevel.pc&amp;d.imd=0&amp;st.dpt=&amp;st.sdpt=&amp;subcvs=homepage&amp;pg.n=startpage&amp;pg.t=hp&amp;pg.c=&amp;pg.p=prime&amp;anoncknm=&amp;issso=0&amp;aadState=0" alt="image beacon" width="1" height="1" /><img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=3000001&amp;cs_ucfr=1&amp;rn=636907195288562065&amp;c7=http%253A%252F%252Fwww.msn.com%252Fen-in%252F&amp;c8=&amp;c9=" alt="image beacon" width="1" height="1" /><img src="//otf.msn.com/c.gif?js=0&amp;evt=impr&amp;di=9&amp;pi=&amp;ps=&amp;su=http%253A%252F%252Fwww.msn.com%252Fen-in%252F&amp;mkt=en-in&amp;pp=False&amp;cv.partner=&amp;cv.publcat=&amp;st.dpt=&amp;st.sdpt=&amp;dv.Title1=&amp;cts=636907195288562065&amp;rf=&amp;rid=e38dc378866e45cb9a204cffe9dda944&amp;cvs=Browser&amp;subcvs=homepage&amp;cv.entityId=&amp;cv.entitySrc=&amp;provid=&amp;ar=0&amp;d.dgk=downlevel.pc&amp;d.imd=0&amp;cv.parentId=&amp;isCorePV=&amp;pgIdx=&amp;pgTot=&amp;activityId=e38dc378866e45cb9a204cffe9dda944&amp;pm=&amp;pg.n=startpage&amp;pg.t=hp&amp;pg.c=&amp;pg.p=prime&amp;anoncknm=&amp;issso=0&amp;ex=&amp;aadState=0" alt="image beacon" width="1" height="1" />
+</div>
+
+ 
+     <script>
+        require(["headData", "pageInstance", "mediator", "c.deferred"], function (headData, pageInstance, mediator)
+        {
+        var url = '//www.bizographics.com/collect/?fmt=gif&pid=7850';
+        if (headData && headData.clientSettings && headData.clientSettings.static_page)
+        {
+            mediator.pub(pageInstance.eventName);
+            var rid = pageInstance.getActivityId();
+            url = url.replace(/([?&]rid=)[^&#]*/i, "$1" + rid);
+            }
+        new Image().src = url.replace(/&amp;/g, '&');
+    });
+    </script>
+    <noscript>
+        <div>
+            <img data-src="//www.bizographics.com/collect/?fmt=gif&amp;pid=7850&amp;ts=noscript" width="1" height="1" alt="" />
+        </div>
+    </noscript>
+
+ 
+</body>
+ <!--MSNAvailToken--></html>
