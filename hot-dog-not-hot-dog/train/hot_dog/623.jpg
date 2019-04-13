@@ -1,4 +1,0 @@
-<br />
-<b>Warning</b>:  require_once(/usr/home/weenieman/public_html/weenieman.pairserver.com/mainsite2014/libraries/joomla/document/html/renderer/head.php): failed to open stream: No such file or directory in <b>/usr/home/weenieman/public_html/weenieman.pairserver.com/mainsite2014/templates/gantry/error.php</b> on line <b>85</b><br />
-<br />
-<b>Fatal error</b>:  require_once(): Failed opening required '/usr/home/weenieman/public_html/weenieman.pairserver.com/mainsite2014/libraries/joomla/document/html/renderer/head.php' (include_path='.:/usr/local/lib/php') in <b>/usr/home/weenieman/public_html/weenieman.pairserver.com/mainsite2014/templates/gantry/error.php</b> on line <b>85</b><br />
